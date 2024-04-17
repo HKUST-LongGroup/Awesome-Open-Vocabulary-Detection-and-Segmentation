@@ -2,64 +2,92 @@
 
 ### Zero-Shot Object Detection
 
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|-|-|
+
+
 ### Open-Vocabulary Object Detection
 
-|Year|Venue|Keywords|Paper Title|Code/Project|
-|:-:|:-:|:-:|-|-|
-|2021|CVPR|`cap.`|[Open-Vocabulary Object Detection Using Captions](https://arxiv.org/abs/2011.10678)|[Code](https://github.com/alirezazareian/ovr-cnn)|
-|2022|ICLR|`vlm.`|[Open-vocabulary Object Detection via Vision and Language Knowledge Distillation](https://arxiv.org/abs/2104.13921)|[Code](https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/vild)|
-|2022|CVPR|`cap.`, `vlm.`, `pre.`|[RegionCLIP: Region-based Language-Image Pretraining](https://arxiv.org/abs/2112.09106)|[Code](https://github.com/microsoft/RegionCLIP)|
-|2022|CVPR|`vlm.`|[Learning to Prompt for Open-Vocabulary Object Detection with Vision-Language Model](https://arxiv.org/abs/2203.14940)|[Code](https://github.com/dyabel/detpro)|
-|2022|CVPR|`vlm.`, `cap.`|[Open-Vocabulary One-Stage Detection with Hierarchical Visual-Language Knowledge Distillation](https://arxiv.org/abs/2203.10593)|[Code](https://github.com/mengqiDyangge/HierKD)|
-|2022|CVPR|`cap.`, `vlm.`|[Grounded Language-Image Pre-training](https://arxiv.org/pdf/2112.03857.pdf)|[[Code](https://github.com/microsoft/GLIP)]|
-|2022|NeurIPS|`cap.`, `vlm.`|[GLIPv2: Unifying Localization and VL Understanding](https://arxiv.org/pdf/2206.05836.pdf)|[Code](https://github.com/microsoft/GLIP)|
-|2022|GCPR|`cap.`|[Localized Vision-Language Matching for Open-vocabulary Object Detection](https://arxiv.org/abs/2205.06160)|[Code](https://github.com/lmb-freiburg/locov)|
-|2022|ECCV|`vlm.`|[Open-Vocabulary DETR with Conditional Matching](https://arxiv.org/abs/2203.11876)|[Code](https://github.com/yuhangzang/OV-DETR)|
-|2022|ECCV|`vlm.`, `cap.`, `pl.`|[Open Vocabulary Object Detection with Pseudo Bounding-Box Labels](https://arxiv.org/abs/2111.09452)|[Code](https://github.com/salesforce/PB-OVD)|
-|2022|ECCV|`vlm.`|[Promptdet: Towards open-vocabulary detection using uncurated images](https://arxiv.org/abs/2203.16513)|[Code](https://github.com/fcjian/PromptDet)|
-|2022|ECCV|`vlm.`, `pl.`, `w/o ps.`|[Detecting Twenty-thousand Classes using Image-level Supervision](https://arxiv.org/abs/2201.02605)|[Code](https://github.com/facebookresearch/Detic)|
-|2022|ECCV|`vlm.`. `pl.`|[Exploiting unlabeled data with vision and language models for object detection](https://arxiv.org/abs/2207.08954)|[Code](https://github.com/xiaofeng94/VL-PLM)|
-|2022|ECCV|`vlm.`, `cap.`|[Simple Open-Vocabulary Object Detection with Vision Transformers](https://arxiv.org/abs/2205.06230)|[Code](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit)|
-|2022|NeurIPS|`vlm.`, `pl.`|[Bridging the Gap between Object and Image-level Representations for Open-Vocabulary Detection](https://arxiv.org/abs/2207.03482)|[Code](https://github.com/hanoonaR/object-centric-ovd)|
-|2022|NeurIPS|`vlm.`, `cap.`|[DetCLIP: Dictionary-Enriched Visual-Concept Paralleled Pre-training for Open-world Detection](https://arxiv.org/abs/2209.09407)|N/A|
-|2022|arXiv|`vlm.`|[Open Vocabulary Object Detection with Proposal Mining and Prediction Equalization](https://arxiv.org/abs/2206.11134)|[Code](https://github.com/peixianchen/MEDet)|
-|2022|arXiv|`vlm.`, `pl.`|[P3OVD: Fine-grained Visual-Text Prompt-Driven Self-Training for Open-Vocabulary Object Detection](https://arxiv.org/abs/2211.00849)|N/A|
-|2023|ICLR|`vlm.`, `pl.`|[Learning Object-Language Alignments for Open-Vocabulary Object Detection](https://arxiv.org/abs/2211.14843)|[Code](https://github.com/clin1223/VLDet)|
-|2023|ICLR|`vlm.`|[F-VLM: Open-Vocabulary Object Detection upon Frozen Vision and Language Models](https://arxiv.org/abs/2209.15639)|[Code](https://github.com/google-research/google-research/tree/master/fvlm)|
-|2023|CVPR|`other.`, `vlm.` |[Learning to Detect and Segment for Open Vocabulary Object Detection](https://arxiv.org/abs/2212.12130)|N/A|
-|2023|CVPR|`vlm.`, `cap.`|[Aligning Bag of Regions for Open-Vocabulary Object Detection](https://arxiv.org/abs/2302.13996)|[Code](https://github.com/wusize/ovdet)|
-|2023|CVPR|`vlm.`|[Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection](https://arxiv.org/abs/2303.05892)|[Code](https://github.com/LutingWang/OADP)|
-|2023|CVPR|`vlm.`|[CORA: Adapting CLIP for Open-Vocabulary Detection with Region Prompting and Anchor Pre-Matching](https://arxiv.org/abs/2303.13076)|N/A|
-|2023|CVPR|`vlm.`, `pl.`|[DetCLIPv2: Scalable Open-Vocabulary Object Detection Pre-training via Word-Region Alignment](https://arxiv.org/abs/2304.04514)|N/A|
-|2023|CVPR|`vlm.`|[Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers](https://arxiv.org/abs/2305.07011)|N/A|
-|2023|ICML|`vlm.`|[Multi-Modal Classifiers for Open-Vocabulary Object Detection](https://arxiv.org/abs/2306.05493)|[Project](https://www.robots.ox.ac.uk/~vgg/research/mm-ovod/)|
-|2023|arXiv|`vlm.`|[GridCLIP: One-Stage Object Detection by Grid-Level CLIP Representation Learning](https://arxiv.org/abs/2303.09252)|N/A|
-|2023|arXiv|`vlm.`, `cap.`|[Enhancing the Role of Context in Region-Word Alignment for Object Detection](https://arxiv.org/abs/2303.10093)|N/A|
-|2023|arXiv|`cap.`, `pl.`|[Open-Vocabulary Object Detection using Pseudo Caption Labels](https://arxiv.org/abs/2303.13040)|N/A|
-|2023|arXiv|`vlm.`, `pl.`|[Three ways to improve feature alignment for open vocabulary detection](https://arxiv.org/abs/2303.13518)|N/A|
-|2023|arXiv|`vlm.`|[Prompt-Guided Transformers for End-to-End Open-Vocabulary Object Detection](https://arxiv.org/abs/2303.14386)|N/A|
-|2023|TMLR|`vlm.`, `cap.`, `pl.`|[MaMMUT: A Simple Architecture for Joint Learning for MultiModal Tasks](https://arxiv.org/abs/2303.16839)|N/A|
-|2023|NeurIPS|`vlm.`, `cap.`, `pl.`|[Scaling Open-Vocabulary Object Detection](arxiv.org/abs/2306.09683)|N/A|
-|2023|arXiv|`vlm.`|[Open-Vocabulary Object Detection via Scene Graph Discovery](http://arxiv.org/abs/2307.03339)|N/A|
-|2023|ICCV|`vlm.`|[Detection-Oriented Image-Text Pretraining for Open-Vocabulary Detection](https://arxiv.org/abs/2310.00161)|[Code](https://github.com/google-research/google-research/tree/master/fvlm/dito)|
-|2023|ICCV|`vlm.`|[EdaDet: Open-Vocabulary Object Detection Using Early Dense Alignment](https://arxiv.org/abs/2309.01151)|[Code](https://chengshiest.github.io/edadet/)|
-|2023|KDD|`vlm.`|[What Makes Good Open-Vocabulary Detector: A Disassembling Perspective](https://arxiv.org/abs/2309.00227)|N/A|
-|2023|NeurIPS |`vlm.`|[CoDet: Co-Occurrence Guided Region-Word Alignment for Open-Vocabulary Object Detection](https://arxiv.org/abs/2310.16667)|[Code](https://github.com/cvmi-lab/codet)|
-|2023|arXiv|`vlm.`|[DST-Det: Simple Dynamic Self-Training for Open-Vocabulary Object Detection](https://arxiv.org/abs/2310.01393)|[Code](https://github.com/xushilin1/dst-det)|
-|2023|arXiv|`vlm.`|[Taming Self-Training for Open-Vocabulary Object Detection](https://arxiv.org/abs/2308.06412)|[Code](https://github.com/xiaofeng94/sas-det)|
-|2023|arXiv|`unify.`, `vlm.`, `pre.`|[CLIPSelf: Vision Transformer Distills Itself for Open-Vocabulary Dense Prediction](https://arxiv.org/abs/2310.01403)|[Code](https://github.com/wusize/CLIPSelf)|
-|2023|arXiv|`bench`|[The devil is in the fine-grained details: Evaluating open-vocabulary object detectors for fine-grained understanding](https://arxiv.org/abs/2311.17518)|[Project](https://lorebianchi98.github.io/FG-OVD/)|
-|2023|BMVC|`vlm.`|[Open-Vocabulary Object Detection with Meta Prompt Representation and Instance Contrastive Optimization]([http://arxiv.org/abs/2307.03339](https://proceedings.bmvc2023.org/93/))|N/A|
-|2024|AAAI|`vlm.`|[Simple Image-level Classification Improves Open-vocabulary Object Detection](https://arxiv.org/abs/2312.10439)|[Code](https://github.com/mala-lab/sic-cads)|
-|2024|AAAI|`vlm.`|[ProxyDet: Synthesizing Proxy Novel Classes via Classwise Mixup for Open-Vocabulary Object Detection](https://arxiv.org/abs/2312.07266)|[Code](https://github.com/clovaai/ProxyDet)|
-|2024|AAAI|`unify.`, `vlm.`, `pre.`|[CLIM: Contrastive Language-Image Mosaic for Region Representation](https://arxiv.org/abs/2312.11376)|[Code](https://github.com/wusize/CLIM)|
-|2024|WACV|`vlm.`|[LP-OVOD: Open-Vocabulary Object Detection by Linear Probing](https://arxiv.org/abs/2310.17109)|[Code](https://github.com/VinAIResearch/LP-OVOD)|
-|2024|CVPR|`vlm.`|[YOLO-World: Real-Time Open-Vocabulary Object Detection](https://arxiv.org/abs/2401.17270)|[Code](https://github.com/AILab-CVC/YOLO-World)|
+#### Region-Aware Training
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|CVPR'21|[OVR-CNN](https://arxiv.org/abs/2011.10678)|[Code](https://github.com/alirezazareian/ovr-cnn)|
+|GCPR'22|[LocOv](https://arxiv.org/abs/2205.06160)|[Code](https://github.com/lmb-freiburg/locov)|
+|arXiv'23|[MMC-Det](https://arxiv.org/abs/2308.15846)|N/A|
+|NeurIPS'22|[DetCLIP](https://arxiv.org/abs/2209.09407)|N/A|
+|CVPR'23|[DetCLIPv2](https://arxiv.org/abs/2304.04514)|N/A|
+|CVPR'24|[DetCLIPv3](https://arxiv.org/abs/2404.09216)|N/A|
+|AAAI'24|[WSOVOD](https://arxiv.org/abs/2312.12437)|[Code](https://github.com/HunterJ-Lin/WSOVOD)|
+|CVPR'23|[RO-ViT](https://arxiv.org/abs/2305.07011)|N/A|
+|ICCV'23|[CFM-ViT](https://arxiv.org/abs/2309.00775)|N/A|
+|ICCV'23|[DITO](https://arxiv.org/abs/2310.00161)|[Code](https://github.com/google-research/google-research/tree/master/fvlm/dito)|
+
+
+#### Pseudo-Labeling
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+
+#### Knowledge Distillation
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+
+#### Transfer Learning
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|ICLR'22|[ViLD](https://arxiv.org/abs/2104.13921)|[Code](https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/vild)|
+|CVPR'22|[RegionCLIP](https://arxiv.org/abs/2112.09106)|[Code](https://github.com/microsoft/RegionCLIP)|
+|CVPR'22|[DetPro](https://arxiv.org/abs/2203.14940)|[Code](https://github.com/dyabel/detpro)|
+|CVPR'22|[HierKD](https://arxiv.org/abs/2203.10593)|[Code](https://github.com/mengqiDyangge/HierKD)|
+|CVPR'22|[GLIP](https://arxiv.org/pdf/2112.03857.pdf)|[Code](https://github.com/microsoft/GLIP)|
+|NeurIPS'22|[GLIPv2](https://arxiv.org/pdf/2206.05836.pdf)|[Code](https://github.com/microsoft/GLIP)|
+|ECCV'22|[OV-DETR](https://arxiv.org/abs/2203.11876)|[Code](https://github.com/yuhangzang/OV-DETR)|
+|ECCV'22|[PB-OVD](https://arxiv.org/abs/2111.09452)|[Code](https://github.com/salesforce/PB-OVD)|
+|ECCV'22|[PromptDet](https://arxiv.org/abs/2203.16513)|[Code](https://github.com/fcjian/PromptDet)|
+|ECCV'22|[Detic](https://arxiv.org/abs/2201.02605)|[Code](https://github.com/facebookresearch/Detic)|
+|ECCV'22|[VL-PLM](https://arxiv.org/abs/2207.08954)|[Code](https://github.com/xiaofeng94/VL-PLM)|
+|ECCV'22|[OWL-ViT](https://arxiv.org/abs/2205.06230)|[Code](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit)|
+|NeurIPS'22|[RKDWTF](https://arxiv.org/abs/2207.03482)|[Code](https://github.com/hanoonaR/object-centric-ovd)|
+|arXiv'22|[MEDet](https://arxiv.org/abs/2206.11134)|[Code](https://github.com/peixianchen/MEDet)|
+|arXiv'22|[VTP-OVD](https://arxiv.org/abs/2211.00849)|N/A|
+|ICLR'23|[VLDet](https://arxiv.org/abs/2211.14843)|[Code](https://github.com/clin1223/VLDet)|
+|ICLR'23|[F-VLM](https://arxiv.org/abs/2209.15639)|[Code](https://github.com/google-research/google-research/tree/master/fvlm)|
+|CVPR'23|[CondHead](https://arxiv.org/abs/2212.12130)|N/A|
+|CVPR'23|[BARON](https://arxiv.org/abs/2302.13996)|[Code](https://github.com/wusize/ovdet)|
+|CVPR'23|[OADP](https://arxiv.org/abs/2303.05892)|[Code](https://github.com/LutingWang/OADP)|
+|CVPR'23|[CORA](https://arxiv.org/abs/2303.13076)|N/A|
+|ICML'23|[MM-OVOD](https://arxiv.org/abs/2306.05493)|[Project](https://www.robots.ox.ac.uk/~vgg/research/mm-ovod/)|
+|arXiv'23|[GridCLIP](https://arxiv.org/abs/2303.09252)|N/A|
+|arXiv'23|[PCL](https://arxiv.org/abs/2303.13040)|N/A|
+|arXiv'23|[3Ways](https://arxiv.org/abs/2303.13518)|N/A|
+|arXiv'23|[Prompt-OVD](https://arxiv.org/abs/2303.14386)|N/A|
+|TMLR'23|[MaMMUT](https://arxiv.org/abs/2303.16839)|N/A|
+|NeurIPS'23|[OWLv2](arxiv.org/abs/2306.09683)|N/A|
+|arXiv'23|[SGDN](http://arxiv.org/abs/2307.03339)|N/A|
+|ICCV'23|[EdaDet](https://arxiv.org/abs/2309.01151)|[Code](https://chengshiest.github.io/edadet/)|
+|KDD'23|[DRR](https://arxiv.org/abs/2309.00227)|N/A|
+|NeurIPS'23|[CoDet](https://arxiv.org/abs/2310.16667)|[Code](https://github.com/cvmi-lab/codet)|
+|arXiv'23|[DST-Det](https://arxiv.org/abs/2310.01393)|[Code](https://github.com/xushilin1/dst-det)|
+|arXiv'23|[SAS-Det](https://arxiv.org/abs/2308.06412)|[Code](https://github.com/xiaofeng94/sas-det)|
+|arXiv'23|[CLIPSelf](https://arxiv.org/abs/2310.01403)|[Code](https://github.com/wusize/CLIPSelf)|
+|arXiv'23|[FG-OVD](https://arxiv.org/abs/2311.17518)|[Project](https://lorebianchi98.github.io/FG-OVD/)|
+|BMVC'23|[MIC]([http://arxiv.org/abs/2307.03339](https://proceedings.bmvc2023.org/93/))|N/A|
+|AAAI'24|[SIC-CADS](https://arxiv.org/abs/2312.10439)|[Code](https://github.com/mala-lab/sic-cads)|
+|AAAI'24|[ProxyDet](https://arxiv.org/abs/2312.07266)|[Code](https://github.com/clovaai/ProxyDet)|
+|AAAI'24|[CLIM](https://arxiv.org/abs/2312.11376)|[Code](https://github.com/wusize/CLIM)|
+|WACV'24|[LP-OVOD](https://arxiv.org/abs/2310.17109)|[Code](https://github.com/VinAIResearch/LP-OVOD)|
+|CVPR'24|[YOLO-World](https://arxiv.org/abs/2401.17270)|[Code](https://github.com/AILab-CVC/YOLO-World)|
 
 
 ### Open-Vocabulary Semantic Segmentation
 
-|Year|Venue|Keywords|Paper Title|Code/Project|
+|Year|Venue|Keywords|Paper Abbr|Project|
 |:-:|:-:|:-:|-|-|
 |2022|ICLR|`vlm.`|[Language-driven Semantic Segmentation](https://arxiv.org/abs/2201.03546)|[Code](https://github.com/isl-org/lang-seg)|
 |2022|CVPR|`cap.`, `w/o ps.`|[GroupViT: Semantic Segmentation Emerges from Text Supervision](https://arxiv.org/abs/2202.11094)|[Code](https://github.com/NVlabs/GroupViT)|
@@ -100,7 +128,7 @@
 
 ### Open-Vocabulary Instance Segmentation
 
-|Year|Venue|Keywords|Paper Title|Code/Project|
+|Year|Venue|Keywords|Paper Abbr|Project|
 |:-:|:-:|:-:|-|-|
 |2023|CVPR|`vlm.`|[Semantic-Promoted Debiasing and Background Disambiguation for Zero-Shot Instance Segmentation](https://henghuiding.github.io/D2Zero/)|[Code](https://github.com/heshuting555/D2Zero)|
 |2022|CVPR|`cap.`, `pl.`, `vlm.`|[Open-Vocabulary Instance Segmentation via Robust Cross-Modal Pseudo-Labeling](https://arxiv.org/abs/2111.12698)|[Code](https://github.com/hbdat/cvpr22_cross_modal_pseudo_labeling)|
@@ -111,7 +139,7 @@
 
 ### Open-Vocabulary Panoptic Segmentation
 
-|Year|Venue|Keywords|Paper Title|Code/Project|
+|Year|Venue|Keywords|Paper Abbr|Project|
 |:-:|:-:|:-:|-|-|
 |2023|CVPR|`unify.`, `vlm.` |[Primitive Generation and Semantic-related Alignment for Universal Zero-Shot Segmentation](https://henghuiding.github.io/PADing/)|[Code](https://github.com/heshuting555/PADing)|
 |2022|arXiv|`vlm`|[Open-Vocabulary Panoptic Segmentation with MaskCLIP](https://arxiv.org/abs/2208.08984)|N/A|
@@ -125,7 +153,7 @@
 
 ### 3D Detection
 
-|Year|Venue|Keywords|Paper Title|Code/Project|
+|Year|Venue|Keywords|Paper Abbr|Project|
 |:-:|:-:|:-:|-|-|
 |2022|arXiv|`vlm.`|[Open-Vocabulary 3D Detection via Image-level Class and Debiased Cross-modal Contrastive Learning](https://arxiv.org/abs/2207.01987)|N/A|
 |2023|CVPR|`vlm.`|[Open-Vocabulary Point-Cloud Object Detection without 3D Annotation](https://arxiv.org/abs/2304.00788v1)|[Code](https://github.com/lyhdet/OV-3DET)|
@@ -136,7 +164,7 @@
 
 ### 3D segmentation
 
-|Year|Venue|Keywords|Paper Title|Code/Project|
+|Year|Venue|Keywords|Paper Abbr|Project|
 |:-:|:-:|:-:|-|-|
 |2023|CVPR|`vlm.`|[PLA: Language-Driven Open-Vocabulary 3D Scene Understanding](https://arxiv.org/abs/2211.16312)|[Code](https://dingry.github.io/projects/PLA)|
 |2023|CVPR|`vlm.`|[CLIP2Scene: Towards Label-efficient 3D Scene Understanding by CLIP](https://arxiv.org/abs/2301.04926)|[Code](https://github.com/runnanchen/CLIP2Scene)|
