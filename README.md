@@ -97,11 +97,6 @@
 |:-:|:-:|:-:|
 |ECCV'22|[OpenSeg](https://arxiv.org/abs/2112.12143)|N/A|
 |arXiv'23|[SLIC](https://arxiv.org/abs/2310.13355)|N/A|
-
-#### Pseudo-Labeling
-
-|Venue|Paper Abbr|Project|
-|:-:|:-:|:-:|
 |CVPR'22|[GroupViT](https://arxiv.org/abs/2202.11094)|[Code](https://github.com/NVlabs/GroupViT)|
 |ECCV'22|[ViL-Seg](https://arxiv.org/abs/2207.08455)|N/A|
 |ICML'23|[SegCLIP](https://arxiv.org/abs/2211.14813)|[Code](https://github.com/ArrowLuo/SegCLIP)|
@@ -109,10 +104,25 @@
 |CVPR'23|[PACL](https://arxiv.org/abs/2212.04994)|N/A|
 |CVPR'23|[TCL](https://arxiv.org/abs/2212.00785)|[Code](https://github.com/kakaobrain/tcl)|
 |ECCV'22|[SimSeg](https://arxiv.org/abs/2112.14757)|[Code](https://github.com/MendelXu/zsseg.baseline)|
+
+#### Pseudo-Labeling
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
 |ECCV'22|[TTD](https://link.springer.com/chapter/10.1007/978-3-031-25063-7_4)|N/A|
+
+#### Knowledge Distillation
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
 |arXiv'23|[GKC](https://arxiv.org/abs/2303.09181)|N/A|
 |arXiv'23|[SAM-CLIP](https://arxiv.org/abs/2310.15308)|N/A|
 |ICCV'23|[ZeroSeg](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Exploring_Open-Vocabulary_Semantic_Segmentation_from_CLIP_Vision_Encoder_Distillation_Only_ICCV_2023_paper.html)|[Code](https://github.com/facebookresearch/ZeroSeg)|
+
+#### Transfer Learning
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
 |ICLR'22|[LSeg](https://arxiv.org/abs/2201.03546)|[Code](https://github.com/isl-org/lang-seg)|
 |CVPR'23|[SAZS](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_Delving_Into_Shape-Aware_Zero-Shot_Semantic_Segmentation_CVPR_2023_paper.html)|[Code](https://github.com/Liuxinyv/SAZS)|
 |MM'23|[CEL](https://arxiv.org/abs/2301.07336)|N/A|
@@ -139,26 +149,17 @@
 |CVPR'23|[ZegCLIP](https://openaccess.thecvf.com/content/CVPR2023/html/Zhou_ZegCLIP_Towards_Adapting_CLIP_for_Zero-Shot_Semantic_Segmentation_CVPR_2023_paper.html)|[Code](https://github.com/ZiqinZhou66/ZegCLIP.git)|
 |CVPR'22|[CLIPSeg](https://arxiv.org/abs/2112.10003)|[Code](https://github.com/timojl/clipseg)|
 |CVPR'23|[SAN](https://arxiv.org/abs/2302.12242)|[Code](https://github.com/MendelXu/SAN)|
-
-||[]()||
-||[]()||
-||[]()||
-||[]()||
-||[]()||
-
-#### Knowledge Distillation
-
-|Venue|Paper Abbr|Project|
-|:-:|:-:|:-:|
-
-#### Transfer Learning
-
-|Venue|Paper Abbr|Project|
-|:-:|:-:|:-:|
+|arXiv'23|[CLIP Surgery](https://arxiv.org/abs/2304.05653)|[Code](https://github.com/xmed-lab/CLIP_Surgery)|
+|arXiv'23|[CaR](https://arxiv.org/abs/2312.07661)|[Project](https://torrvision.com/clip_as_rnn/)|
 
 ### Open-Vocabulary Instance Segmentation
 
 #### Region-Aware Training
+
+||[]()||
+||[]()||
+||[]()||
+||[]()||
 
 #### Pseudo-Labeling
 
@@ -195,7 +196,6 @@
 |ICCV'23|[Guiding Text-to-Image Diffusion Model Towards Grounded Generation](https://arxiv.org/abs/2301.05221)|[Project](https://lipurple.github.io/Grounded_Diffusion/)|
 |NeurIPS'23|[Uncovering Prototypical Knowledge for Weakly Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2310.19001)|[Code](https://github.com/Ferenas/PGSeg)|
 |arXiv'23|[Grounding Everything: Emerging Localization Properties in Vision-Language Transformers](https://arxiv.org/abs/2312.00878)|[Code](https://github.com/WalBouss/GEM)|
-|arXiv'23|[CaR](https://arxiv.org/abs/2312.07661)|[Project](https://torrvision.com/clip_as_rnn/)|
 
 
 ### Open-Vocabulary Instance Segmentation
