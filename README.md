@@ -4,8 +4,9 @@
     <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
 </a>
 <p align="center">
-  <h1 align="center">A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future
-</h1>
+  <a href='https://arxiv.org/abs/2307.09220'>
+    <h1 align="center">A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future</h1>
+  </a>
   <p align="center">
     <a href="https://scholar.google.com/citations?user=jkxdiToAAAAJ&hl=en"><strong>Chaoyang Zhu, </strong></a>
     <a href="https://scholar.google.com/citations?hl=en&user=-gtmMpIAAAAJ"><strong>Long Chen<sup>*</sup></strong></a>
