@@ -6,8 +6,8 @@
 <p align="center">
   <h1 align="center"><a href='https://arxiv.org/abs/2307.09220'>A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future</a></h1>
   <p align="center">
-    <a href="https://scholar.google.com/citations?user=jkxdiToAAAAJ&hl=en">Chaoyang Zhu, </a>
-    <a href="https://scholar.google.com/citations?hl=en&user=-gtmMpIAAAAJ">Long Chen<sup>*</sup></a>
+    <a href="https://scholar.google.com/citations?user=jkxdiToAAAAJ&hl=en" style="text-decoration:none;">Chaoyang Zhu</a>,
+    <a href="https://scholar.google.com/citations?hl=en&user=-gtmMpIAAAAJ" style="text-decoration:none;">Long Chen<sup>*</sup></a>
   </p>
 <br>
 
