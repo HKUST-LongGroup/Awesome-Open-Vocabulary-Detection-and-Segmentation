@@ -265,6 +265,8 @@
 
 ### Open-Vocabulary Video Instance Segmentation
 
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
 |ICCV'23|[OV2Seg](https://arxiv.org/abs/2304.01715)|[Code](https://github.com/haochenheheda/LVVIS)|
 |arXiv'23|[OpenVIS](https://arxiv.org/abs/2305.16835)|[Code](https://github.com/sennnnn/OpenVIS)|
 |arXiv'24|[BriVIS](https://arxiv.org/abs/2401.09732)|[Code](https://github.com/sennnnn/OpenVIS)|
