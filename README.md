@@ -20,11 +20,8 @@
 ## Table of Contents
 
 - [Zero-Shot Object Detection](#zero-shot-object-detection)
-  - [Open Vocabulary Object Detection](#open-vocabulary-object-detection)
-  - [Open Vocabulary Segmentation](#open-vocabulary-segmentation)
-    - [Semantic Segmentation](#semantic-segmentation)
-    - [Instance Segmentation](#instance-segmentation)
-    - [Panoptic Segmentation](#panoptic-segmentation)
+  - [Visual-Semantic Space Mapping](#zero-shot-object-detection-visual-semantic-space-mapping)
+  - [Novel Visual Feature Synthesis](#zero-shot-object-detection-novel-visual-feature-synthesis)
   - [Open Vocabulary Video Understanding](#open-vocabulary-video-understanding)
     - [Video Classification](#video-classification)
     - [Tracking](#tracking)
