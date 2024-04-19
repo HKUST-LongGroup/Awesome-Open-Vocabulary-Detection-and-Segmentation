@@ -17,11 +17,62 @@
   </p>
 <br>
 
-### Zero-Shot Object Detection
+## Zero-Shot Object Detection
+
+### Visual-Semantic Space Mapping
 
 |Venue|Paper Abbr|Project|
-|:-:|:-:|:-:|-|-|
+|:-:|:-:|:-:|
+|ECCV'18|[ZSDv1](https://arxiv.org/abs/1804.04340)|N/A|
+|ACCV'18 & IJCV'20|[ZSDv2](https://arxiv.org/abs/1803.06049)|N/A|
+|AAAI'20|[CA-ZSR](https://arxiv.org/abs/1904.09320)|[Code](https://github.com/ruotianluo/Context-aware-ZSR)|
+|AAAI'19|[ZSD-TD](https://ojs.aaai.org/index.php/AAAI/article/view/4891)|N/A|
+|ACCV'20|[BLC](https://arxiv.org/abs/2010.04502)|[Code](https://github.com/zhengye1995/BLC)|
+|ICCV'19|[TL-ZSD](https://openaccess.thecvf.com/content_ICCV_2019/html/Rahman_Transductive_Learning_for_Zero-Shot_Object_Detection_ICCV_2019_paper.html)|N/A|
+|arXiv'23|[SSB](https://arxiv.org/abs/2302.07319)|N/A|
+|WACV'20|[MS-Zero](https://openaccess.thecvf.com/content_WACV_2020/papers/Gupta_A_Multi-Space_Approach_to_Zero-Shot_Object_Detection_WACV_2020_paper.pdf)|N/A|
+|TCSVT'19|[ZS-YOLO](https://ieeexplore.ieee.org/abstract/document/8642945)|N/A|
+|AAAI'21|[DPIF](https://ojs.aaai.org/index.php/AAAI/article/view/16295)|[Code](https://github.com/Lppy/DPIF)|
+|TPAMI'21|[ContrastZSD](https://arxiv.org/abs/2109.06062)|N/A|
+|IJCAI'20|[ZSD-CNN](https://www.ijcai.org/proceedings/2020/126)|N/A|
 
+### Novel Visual Feature Synthesis
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|CVPR'20|[DELO](https://arxiv.org/abs/1911.07933)|N/A|
+|ACCV'20|[SU](https://arxiv.org/abs/2010.09425)|[Code](https://github.com/nasir6/zero_shot_detection)|
+|AAAI'20|[GTNet](https://arxiv.org/abs/2001.06812)|[Code](https://github.com/X-BrainLab/GTNet)|
+|CVPR'22|[RRFS](https://arxiv.org/abs/2201.00103)|[Code](https://github.com/HPL123/RRFS)|
+
+## Zero-Shot Segmentation
+
+### Zero-Shot Semantic Segmentation
+
+#### Visual-Semantic Space Mapping
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|CVPR'20|[SPNet](https://ieeexplore.ieee.org/document/8953827)|[Code](https://github.com/subhc/SPNet)|
+|NeurIPS'20|[ULZSS](https://proceedings.neurips.cc/paper/2020/hash/f73b76ce8949fe29bf2a537cfa420e8f-Abstract.html)|[Code](https://github.com/feinanshan/ULZSS)|
+|ICCV'21|[JoEm](https://arxiv.org/abs/2108.06536)|[Code](https://github.com/cvlab-yonsei/JoEm)|
+|ICCVW'19|[VM](https://ieeexplore.ieee.org/document/9022071)|N/A|
+|ICCV'21|[PMOSR](https://ieeexplore.ieee.org/document/9709966)|N/A|
+
+#### Novel Visual Feature Synthesis
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|NeurIPS'19|[ZS3Net](https://arxiv.org/abs/1906.00817)|[Code](https://github.com/valeoai/ZS3)|
+|NeurIPS'20|[CSRL](https://proceedings.neurips.cc/paper/2020/hash/7504adad8bb96320eb3afdd4df6e1f60-Abstract.html)|N/A|
+|MM'20|[CaGNet](https://arxiv.org/abs/2008.06893)|[Code](https://github.com/bcmi/CaGNet-Zero-Shot-Semantic-Segmentation)|
+|ICCV'21|[SIGN](https://arxiv.org/abs/2108.12517)|[Code](https://github.com/cplusx/SIGN)|
+
+### Zero-Shot Instance Segmentation
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|CVPR'21|[ZSIS](https://arxiv.org/abs/2104.06601)|[Code](https://github.com/zhengye1995/Zero-shot-Instance-Segmentation)|
 
 ## Open-Vocabulary Object Detection
 
