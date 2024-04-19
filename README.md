@@ -1,5 +1,5 @@
 ![Static Badge](https://img.shields.io/badge/Build-Updating-blue)
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/jianzongwu/Awesome-Open-Vocabulary/pulls)
+[![Static Badge](https://img.shields.io/badge/PR-Welcome-orange)](https://github.com/seanzhuh/awesome-open-vocabulary-detection-and-segmentation/pulls)
 <a href='https://arxiv.org/abs/2307.09220'>
     <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
 </a>
