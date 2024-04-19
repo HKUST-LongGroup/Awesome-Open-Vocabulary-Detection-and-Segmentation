@@ -15,6 +15,8 @@
 
 <image src="figs/comp.png" width="75%">
 
+<image src="figs/table.png" width="75%">
+
 ## Table of Contents
 
 - [Zero-Shot Object Detection](#zsd)
