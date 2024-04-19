@@ -17,6 +17,10 @@
   </p>
 <br>
 
+## General Overview
+
+![Alt Text](figs/comp.pdf)
+
 ## Table of Contents
 
 - [Zero-Shot Object Detection](#zsd)
