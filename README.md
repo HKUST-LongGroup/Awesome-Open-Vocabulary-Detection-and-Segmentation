@@ -207,12 +207,12 @@
 |NeurIPS'24|[AttrSeg](https://arxiv.org/abs/2309.00096)|N/A|
 |arXiv'23|[PnP-OVSS](https://arxiv.org/abs/2311.17095)|[Code](https://github.com/letitiabanana/PnP-OVSS)|
 |arXiv'23|[TagAlign](https://arxiv.org/abs/2312.14149)|[Project](https://qinying-liu.github.io/Tag-Align/)|
-|arXiv'23|[Self-Guided Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2312.04539)|N/A|
+|arXiv'23|[SelfSeg](https://arxiv.org/abs/2312.04539)|N/A|
 |CVPR'22|[DenseCLIP](https://openaccess.thecvf.com/content/CVPR2022/html/Rao_DenseCLIP_Language-Guided_Dense_Prediction_With_Context-Aware_Prompting_CVPR_2022_paper.html)|[Code](https://github.com/raoyongming/DenseCLIP)|
 |CVPR'23|[OVSeg](https://arxiv.org/abs/2210.04150)|[Code](https://github.com/facebookresearch/ov-seg)|
 |arXiv'23|[CAT-Seg](https://arxiv.org/abs/2303.11797)|[Code](https://github.com/KU-CVLAB/CAT-Seg)|
 |arXiv'23|[SED](https://arxiv.org/abs/2311.15537)|[Code](https://github.com/xb534/SED)|
-|NeurIPS'23|[MAFT](Learning mask-aware clip representations for zero-shot segmentation)|[Code](https://github.com/jiaosiyu1999/MAFT)|
+|NeurIPS'23|[MAFT](https://openreview.net/forum?id=K1Uzj8tuwd)|[Code](https://github.com/jiaosiyu1999/MAFT)|
 |arXiv'23|[TagCLIP](https://arxiv.org/abs/2304.07547)|N/A|
 |CVPR'23|[ZegCLIP](https://openaccess.thecvf.com/content/CVPR2023/html/Zhou_ZegCLIP_Towards_Adapting_CLIP_for_Zero-Shot_Semantic_Segmentation_CVPR_2023_paper.html)|[Code](https://github.com/ZiqinZhou66/ZegCLIP.git)|
 |CVPR'22|[CLIPSeg](https://arxiv.org/abs/2112.10003)|[Code](https://github.com/timojl/clipseg)|
