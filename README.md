@@ -1,19 +1,14 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/seanzhuh/awesome-open-vocabulary-detection-and-segmentation/CI?label=build)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/jianzongwu/Awesome-Open-Vocabulary/pulls)
+<a href='https://arxiv.org/abs/2307.09220'>
+    <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
+</a>
 <p align="center">
   <h1 align="center">A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future
 </h1>
   <p align="center">
     <a href="https://scholar.google.com/citations?user=jkxdiToAAAAJ&hl=en"><strong>Chaoyang Zhu, </strong></a>
     <a href="https://scholar.google.com/citations?hl=en&user=-gtmMpIAAAAJ"><strong>Long Chen<sup>*</sup></strong></a>
-  </p>
-  <p align="center">
-    <a href='https://arxiv.org/abs/2307.09220'>
-      <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
-    </a>
-    <!-- <a href='https://ieeexplore.ieee.org/document/10420487'>
-      <img src='https://img.shields.io/badge/TPAMI-PDF-blue?style=flat&logo=IEEE&logoColor=green' alt='TPAMI PDF'>
-    </a> -->
   </p>
 <br>
 
