@@ -4,7 +4,6 @@
   <h1 align="center">A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future
 </h1>
   <p align="center">
-    <!-- <b> T-PAMI, 2024 </b> -->
     <a href="https://scholar.google.com/citations?user=jkxdiToAAAAJ&hl=en"><strong>Chaoyang Zhu, </strong></a>
     <a href="https://scholar.google.com/citations?hl=en&user=-gtmMpIAAAAJ"><strong>Long Chen<sup>*</sup></strong></a>
   </p>
@@ -174,93 +173,106 @@
 
 #### Region-Aware Training
 
-||[]()||
-||[]()||
-||[]()||
-||[]()||
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|ICCV'23|[CGG](https://arxiv.org/abs/2301.00805)|[Code](https://github.com/jianzongwu/betrayed-by-captions)|
+|CVPR'23|[D2Zero](https://henghuiding.github.io/D2Zero/)|[Code](https://github.com/heshuting555/D2Zero)|
 
 #### Pseudo-Labeling
 
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|CVPR'23|[XPM](https://arxiv.org/abs/2111.12698)|[Code](https://github.com/hbdat/cvpr22_cross_modal_pseudo_labeling)|
+|CVPR'23|[Mask-free OVIS](https://arxiv.org/abs/2303.16891)|[Code](https://github.com/Vibashan/Maskfree-OVIS)|
+|arXiv'23|[MosaicFusion](https://arxiv.org/abs/2309.13042)|[Code](https://github.com/Jiahao000/MosaicFusion)|
+
 #### Knowledge Distillation
 
-#### Transfer Learning
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|arXiv'24|[OV-SAM](https://arxiv.org/abs/2401.02955)|[Code](https://github.com/HarborYuan/ovsam)|
 
 ### Open-Vocabulary Panoptic Segmentation
 
 #### Region-Aware Training
 
-#### Pseudo-Labeling
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|arXiv'24|[Uni-OVSeg](https://arxiv.org/abs/2402.08960)|[Code](https://github.com/DerrickWang005/Uni-OVSeg.pytorch)|
+|CVPR'23|[X-Decoder](https://arxiv.org/abs/2212.11270)|[Code](https://github.com/microsoft/X-Decoder/tree/main)|
+|CVPR'24|[APE](https://arxiv.org/abs/2312.02153)|[Code](https://github.com/shenyunhang/APE)|
 
 #### Knowledge Distillation
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|CVPR'23|[PADing](https://henghuiding.github.io/PADing/)|[Code](https://github.com/heshuting555/PADing)|
 
 #### Transfer Learning
 
 |Venue|Paper Abbr|Project|
 |:-:|:-:|:-:|
-|ECCV'22[Scaling Open-Vocabulary Image Segmentation with Image-Level Labels](https://arxiv.org/abs/2112.12143)|N/A|
+|NeurIPS'23|[FC-CLIP](https://arxiv.org/abs/2308.02487)|[Code](https://github.com/bytedance/fc-clip)|
+|CVPR'23|[FreeSeg](https://arxiv.org/abs/2303.17225)|[Project](https://freeseg.github.io/)|
+|arXiv'24|[PosSAM](https://arxiv.org/abs/2403.09620)|[Project](https://vibashan.github.io/possam-web/)|
+|ICCV'23|[MasQCLIP](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_MasQCLIP_for_Open-Vocabulary_Universal_Image_Segmentation_ICCV_2023_paper.pdf)|[Project](https://masqclip.github.io/)|
+|CVPR'23|[OMG-Seg](https://arxiv.org/abs/2401.10229)| [Code](https://github.com/lxtGH/OMG-Seg)|
+|arXiv'23|[Semantic-SAM](https://arxiv.org/abs/2307.04767)|[Code](https://github.com/UX-Decoder/Semantic-SAM)|
+|CVPR'23|[ODISE](https://arxiv.org/abs/2303.04803)|[Code](https://github.com/NVlabs/ODISE)|
+|NeurIPS'23|[HIPIE](https://arxiv.org/abs/2307.00764)|[Code](https://github.com/berkeley-hipie/HIPIE)|
+|ICML'23|[MaskCLIP](https://arxiv.org/abs/2208.08984)|[Project](https://maskclip.github.io/)|
+|ICCV'23|[OPSNet](https://arxiv.org/abs/2303.11324)|N/A|
 
-|ECCV'22|[Open-world Semantic Segmentation via Contrasting and Clustering Vision-Language Embedding](https://arxiv.org/abs/2207.08455)|N/A|
-|BMVC'22|[Open-vocabulary Semantic Segmentation with Frozen Vision-Language Models](https://arxiv.org/abs/2210.15138)|[Code](https://github.com/chaofanma/Fusioner)|
-|arXiv'22|[Perceptual Grouping in Contrastive Vision-Language Models](https://arxiv.org/abs/2210.09996)|[Code](https://github.com/kahnchana/clippy)|
-|CVPR'23|[X-Decoder](https://arxiv.org/abs/2212.11270)|[Code](https://github.com/microsoft/X-Decoder/tree/main)|
+## Open-Vocabulary 3D Scene Understanding
 
+### Open-Vocabulary 3D Detection
 
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|CVPR'23|[OV-3DET](https://arxiv.org/abs/2304.00788v2)|[Code](https://github.com/lyhdet/OV-3DET)|
+|AAAI'24|[FM-OV3D](https://arxiv.org/abs/2312.14465)|[Code](https://github.com/dmzhang0425/FM-OV3D)|
+|arXiv'23|[OpenSight](https://arxiv.org/abs/2312.08876)|N/A|
+|NeurIPS'23|[CoDA](https://arxiv.org/abs/2310.02960)|[Code](https://github.com/yangcaoai/CoDA_NeurIPS2023)|
+|arXiv'23|[L3Det](https://arxiv.org/abs/2309.09456)|N/A|
 
-|arXiv'23|[Segment Everything Everywhere All at Once](https://arxiv.org/abs/2304.06718)|[Code](https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once)|
+### Open-Vocabulary 3D Segmentation
+
+#### Open-Vocabulary 3D Semantic Segmentation
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|arXiv'21|[SeCondPoint](https://arxiv.org/abs/2107.00430)|N/A|
+|3DV'21|[3DGenZ](https://arxiv.org/abs/2108.06230)|[Code](https://github.com/valeoai/3DGenZ)|
+|CVPR'23|[OpenScene](https://arxiv.org/abs/2211.15654)|[Project](https://pengsongyou.github.io/openscene)|
+|CVPR'23|[PLA](https://arxiv.org/abs/2211.16312)|[Code](https://dingry.github.io/projects/PLA)|
+|arXiv'23|[RegionPLC](https://arxiv.org/abs/2304.00962)|[Project](https://jihanyang.github.io/projects/RegionPLC)|
+
+#### Open-Vocabulary 3D Instance Segmentation
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|NeurIPS'23|[OpenMask3D](https://arxiv.org/abs/2306.13631)|[Project](https://openmask3d.github.io/)|
+|CVPR'24|[MaskClustering](https://arxiv.org/abs/2401.07745)|[Project](https://pku-epic.github.io/MaskClustering/)|
+|arXiv'23|[OpenIns3D](https://arxiv.org/abs/2309.00616)|[Project](https://zheninghuang.github.io/OpenIns3D/)|
+|arXiv'23|[Open3DIS](https://arxiv.org/abs/2312.10671)|[Project](https://open3dis.github.io)|
+
+<!-- |CVPR'23|[CLIP2Scene](https://arxiv.org/abs/2301.04926)|[Code](https://github.com/runnanchen/CLIP2Scene)|
+|2023|ICCVW|[CLIP-FO3D](https://arxiv.org/abs/2303.04748)|N/A|
+|arXiv'24|[UniM-OV3D](https://arxiv.org/abs/2401.11395)|[Code](https://github.com/hithqd/UniM-OV3D)|
+|arXiv'22|[Open-Vocabulary 3D Detection via Image-level Class and Debiased Cross-modal Contrastive Learning](https://arxiv.org/abs/2207.01987)|N/A| -->
+
+## Open-Vocabulary Video Understanding
+
+### Open-Vocabulary Video Instance Segmentation
+
+|ICCV'23|[OV2Seg](https://arxiv.org/abs/2304.01715)|[Code](https://github.com/haochenheheda/LVVIS)|
+|arXiv'23|[OpenVIS](https://arxiv.org/abs/2305.16835)|[Code](https://github.com/sennnnn/OpenVIS)|
+|arXiv'24|[BriVIS](https://arxiv.org/abs/2401.09732)|[Code](https://github.com/sennnnn/OpenVIS)|
+
+<!-- |arXiv'23|[Segment Everything Everywhere All at Once](https://arxiv.org/abs/2304.06718)|[Code](https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once)|
 |arXiv'23|[Exploring Open-Vocabulary Semantic Segmentation without Human Labels](https://arxiv.org/abs/2306.00450)|N/A|
 |arXiv'23|[DaTaSeg](https://arxiv.org/abs/2306.01736)|N/A|
-
 |ICCV'23|[Diffumask](https://arxiv.org/abs/2303.11681)|[Project](https://weijiawu.github.io/DiffusionMask/)|
 |ICCV'23|[Guiding Text-to-Image Diffusion Model Towards Grounded Generation](https://arxiv.org/abs/2301.05221)|[Project](https://lipurple.github.io/Grounded_Diffusion/)|
 |NeurIPS'23|[Uncovering Prototypical Knowledge for Weakly Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2310.19001)|[Code](https://github.com/Ferenas/PGSeg)|
-|arXiv'23|[Grounding Everything: Emerging Localization Properties in Vision-Language Transformers](https://arxiv.org/abs/2312.00878)|[Code](https://github.com/WalBouss/GEM)|
-
-
-### Open-Vocabulary Instance Segmentation
-
-|Year|Venue|Keywords|Paper Abbr|Project|
-|:-:|:-:|:-:|-|-|
-|CVPR'23|[Semantic-Promoted Debiasing and Background Disambiguation for Zero-Shot Instance Segmentation](https://henghuiding.github.io/D2Zero/)|[Code](https://github.com/heshuting555/D2Zero)|
-|CVPR'23|[Open-Vocabulary Instance Segmentation via Robust Cross-Modal Pseudo-Labeling](https://arxiv.org/abs/2111.12698)|[Code](https://github.com/hbdat/cvpr22_cross_modal_pseudo_labeling)|
-|CVPR'23|[Mask-free OVIS](https://arxiv.org/abs/2303.16891)|[Code](https://github.com/Vibashan/Maskfree-OVIS)|
-|arXiv'23|[Betrayed by Captions: Joint Caption Grounding and Generation for Open Vocabulary Instance Segmentation](https://arxiv.org/abs/2301.00805)|[Code](https://github.com/jianzongwu/betrayed-by-captions)|
-|arXiv'23|[Leveraging Open-Vocabulary Diffusion to Camouflaged Instance Segmentation](https://arxiv.org/abs/2312.17505)|N/A|
-
-
-### Open-Vocabulary Panoptic Segmentation
-
-|Year|Venue|Keywords|Paper Abbr|Project|
-|:-:|:-:|:-:|-|-|
-|CVPR'23|[PADing](https://henghuiding.github.io/PADing/)|[Code](https://github.com/heshuting555/PADing)|
-|arXiv'22|[Open-Vocabulary Panoptic Segmentation with MaskCLIP](https://arxiv.org/abs/2208.08984)|N/A|
-|CVPR'23|[Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models](https://arxiv.org/abs/2303.04803)|[Code](https://github.com/NVlabs/ODISE)|
-|ICCV'23|[Open-vocabulary Panoptic Segmentation with Embedding Modulation](https://arxiv.org/abs/2303.11324)|N/A|
-|NeurIPS'23|[HIPIE](https://arxiv.org/abs/2307.00764) | [Code](https://github.com/berkeley-hipie/HIPIE)|
-|CVPR'23|[OMG-Seg](https://arxiv.org/abs/2401.10229)| [Code](https://github.com/lxtGH/OMG-Seg)|
-
-
-### Open Vocabulary 3D Scene Understanding
-
-### 3D Detection
-
-|Year|Venue|Keywords|Paper Abbr|Project|
-|:-:|:-:|:-:|-|-|
-|arXiv'22|[Open-Vocabulary 3D Detection via Image-level Class and Debiased Cross-modal Contrastive Learning](https://arxiv.org/abs/2207.01987)|N/A|
-|CVPR'23|[Open-Vocabulary Point-Cloud Object Detection without 3D Annotation](https://arxiv.org/abs/2304.00788v1)|[Code](https://github.com/lyhdet/OV-3DET)|
-|NeurIPS'23|[CoDA](https://arxiv.org/abs/2310.02960)|[Project](https://yangcaoai.github.io/publications/CoDA.html)|
-|arXiv'23|[Object2Scene](https://arxiv.org/abs/2309.09456)|N/A|
-|arXiv'23||[FM-OV3D](https://arxiv.org/abs/2312.14465)|N/A|
-|arXiv'23|[OpenSight](https://arxiv.org/abs/2312.08876)|N/A|
-
-### 3D segmentation
-
-|Year|Venue|Keywords|Paper Abbr|Project|
-|:-:|:-:|:-:|-|-|
-|CVPR'23|[PLA](https://arxiv.org/abs/2211.16312)|[Code](https://dingry.github.io/projects/PLA)|
-|CVPR'23|[CLIP2Scene](https://arxiv.org/abs/2301.04926)|[Code](https://github.com/runnanchen/CLIP2Scene)|
-|CVPR'23|[OpenScene](https://arxiv.org/abs/2211.15654)|[Project](https://pengsongyou.github.io/openscene)|
-|2023|ICCVW|[CLIP-FO3D](https://arxiv.org/abs/2303.04748)|N/A|
-|NeurIPS'23|[OpenMask3D](https://arxiv.org/abs/2306.13631)|[Project](https://openmask3d.github.io/)|
-|arXiv'23|[OpenIns3D](https://arxiv.org/abs/2309.00616)|[Project](https://zheninghuang.github.io/OpenIns3D/)|
-|arXiv'23|[Open3DIS](https://arxiv.org/abs/2312.10671)|[Project](https://open3dis.github.io)|
-|arXiv'24|[UniM-OV3D](https://arxiv.org/abs/2401.11395)|[Code](https://github.com/hithqd/UniM-OV3D)|
+|arXiv'23|[Grounding Everything: Emerging Localization Properties in Vision-Language Transformers](https://arxiv.org/abs/2312.00878)|[Code](https://github.com/WalBouss/GEM)| -->
