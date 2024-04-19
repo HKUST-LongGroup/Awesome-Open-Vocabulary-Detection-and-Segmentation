@@ -19,7 +19,7 @@
 
 ## General Overview
 
-![Alt Text](figs/comp.pdf)
+<image src="figs/comp.pdf">
 
 ## Table of Contents
 
