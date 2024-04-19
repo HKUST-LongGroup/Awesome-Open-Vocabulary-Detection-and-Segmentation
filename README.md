@@ -19,9 +19,9 @@
 
 ## Table of Contents
 
-- [Zero-Shot Object Detection](#zero-shot-object-detection)
-  - [Visual-Semantic Space Mapping](#zero-shot-object-detection-visual-semantic-space-mapping)
-  - [Novel Visual Feature Synthesis](#zero-shot-object-detection-novel-visual-feature-synthesis)
+- [Zero-Shot Object Detection](#zsd)
+  - [Visual-Semantic Space Mapping](#zsd-vssm)
+  - [Novel Visual Feature Synthesis](#zsd-nvfs)
   - [Open Vocabulary Video Understanding](#open-vocabulary-video-understanding)
     - [Video Classification](#video-classification)
     - [Tracking](#tracking)
