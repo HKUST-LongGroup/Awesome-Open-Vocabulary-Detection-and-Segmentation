@@ -19,7 +19,7 @@
 
 ## General Overview
 
-<image src="figs/comp.pdf">
+<image src="figs/comp.png">
 
 ## Table of Contents
 
