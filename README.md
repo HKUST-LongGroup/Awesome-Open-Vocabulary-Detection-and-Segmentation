@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/seanzhuh/awesome-open-vocabulary-detection-and-segmentation/CI?label=build)
+![Static Badge](https://img.shields.io/badge/build-updating-green)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/jianzongwu/Awesome-Open-Vocabulary/pulls)
 <a href='https://arxiv.org/abs/2307.09220'>
     <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
