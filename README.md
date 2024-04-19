@@ -22,25 +22,43 @@
 - [Zero-Shot Object Detection](#zsd)
   - [Visual-Semantic Space Mapping](#zsd-vssm)
   - [Novel Visual Feature Synthesis](#zsd-nvfs)
-  - [Open Vocabulary Video Understanding](#open-vocabulary-video-understanding)
-    - [Video Classification](#video-classification)
-    - [Tracking](#tracking)
-    - [Video Instance Segmentation](#video-instance-segmentation)
-  - [Open Vocabulary 3D Scene Understanding](#open-vocabulary-3d-scene-understanding)
-    - [3D Classification](#3d-classification)
-    - [3D Detection](#3d-detection)
-    - [3D segmentation](#3d-segmentation)
-- [Related Domains and Beyond](#related-domains-and-beyond)
-  - [Class-agnostic Detection and Segmentation](#class-agnostic-detection-and-segmentation)
-  - [Open-World Object Detection](#open-world-object-detection)
-  - [Open-Set Panoptic Segmentation](#open-set-panoptic-segmentation)
-- [Acknowledgement](#acknowledgement)
-- [Contact](#contact)
+- [Zero-Shot Segmentation](#zss)
+    - [Zero-Shot Semantic Segmentation](#zsss)
+        - [Visual-Semantic Space Mapping](#zsss-vssm)
+        - [Novel Visual Feature Synthesis](#zsss-nvfs)
+    - [Zero-Shot Instance Segmentation](#zsis)
+- [Open-Vocabulary Object Detection](#ovd)
+    - [Region-Aware Training](#ovd-rat)
+    - [Pseudo-Labeling](#ovd-pl)
+    - [Knowledge Distillation](#ovd-kd)
+    - [Transfer Learning](#ovd-tl)
+- [Open-Vocabulary Segmentation](#ovs)
+    - [Open-Vocabulary Semantic Segmentation](#ovss)
+        - [Region-Aware Training](#ovss-rat)
+        - [Pseudo-Labeling](#ovss-pl)
+        - [Knowledge Distillation](#ovss-kd)
+        - [Transfer Learning](#ovss-tl)
+    - [Open-Vocabulary Instance Segmentation](#ovis)
+        - [Region-Aware Training](#ovis-rat)
+        - [Pseudo-Labeling](#ovis-pl)
+        - [Knowledge Distillation](#ovis-kd)
+    - [Open-Vocabulary Panoptic Segmentation](#ovps)
+        - [Region-Aware Training](#ovps-rat)
+        - [Knowledge Distillation](#ovps-kd)
+        - [Transfer Learning](#ovps-tl)
+- [Open-Vocabulary 3D Scene Understanding](#ov3d)
+    - [Open-Vocabulary 3D Detection](#ov3d-det)
+    - [Open-Vocabulary 3D Segmentation](#ov3d-seg)
+        - [Open-Vocabulary 3D Semantic Segmentation](#ov3d-seg-sem)
+        - [Open-Vocabulary 3D Instance Segmentation](#ov3d-seg-ins)
+- [Open-Vocabulary Video Understanding](#ovvu)
+    - [Open-Vocabulary Video Instance Segmentation](#ovvu-seg-ins)
+- [Acknowledgement](#ack)
 
- <a id="zsd"></a>
+<a id="zsd"></a>
 ## Zero-Shot Object Detection
 
- <a id="zsd-vssm"></a>
+<a id="zsd-vssm"></a>
 ### Visual-Semantic Space Mapping
 
 |Venue|Paper Abbr|Project|
@@ -58,7 +76,7 @@
 |TPAMI'21|[ContrastZSD](https://arxiv.org/abs/2109.06062)|N/A|
 |IJCAI'20|[ZSD-CNN](https://www.ijcai.org/proceedings/2020/126)|N/A|
 
- <a id="zsd-nvfs"></a>
+<a id="zsd-nvfs"></a>
 ### Novel Visual Feature Synthesis
 
 |Venue|Paper Abbr|Project|
@@ -68,10 +86,13 @@
 |AAAI'20|[GTNet](https://arxiv.org/abs/2001.06812)|[Code](https://github.com/X-BrainLab/GTNet)|
 |CVPR'22|[RRFS](https://arxiv.org/abs/2201.00103)|[Code](https://github.com/HPL123/RRFS)|
 
+<a id="zss"></a>
 ## Zero-Shot Segmentation
 
+<a id="zsss"></a>
 ### Zero-Shot Semantic Segmentation
 
+<a id="zsss-vssm"></a>
 #### Visual-Semantic Space Mapping
 
 |Venue|Paper Abbr|Project|
@@ -82,6 +103,7 @@
 |ICCVW'19|[VM](https://ieeexplore.ieee.org/document/9022071)|N/A|
 |ICCV'21|[PMOSR](https://ieeexplore.ieee.org/document/9709966)|N/A|
 
+<a id="zsss-nvfs"></a>
 #### Novel Visual Feature Synthesis
 
 |Venue|Paper Abbr|Project|
@@ -91,14 +113,17 @@
 |MM'20|[CaGNet](https://arxiv.org/abs/2008.06893)|[Code](https://github.com/bcmi/CaGNet-Zero-Shot-Semantic-Segmentation)|
 |ICCV'21|[SIGN](https://arxiv.org/abs/2108.12517)|[Code](https://github.com/cplusx/SIGN)|
 
+<a id="zsis"></a>
 ### Zero-Shot Instance Segmentation
 
 |Venue|Paper Abbr|Project|
 |:-:|:-:|:-:|
 |CVPR'21|[ZSIS](https://arxiv.org/abs/2104.06601)|[Code](https://github.com/zhengye1995/Zero-shot-Instance-Segmentation)|
 
+<a id="ovd"></a>
 ## Open-Vocabulary Object Detection
 
+<a id="ovd-rat"></a>
 ### Region-Aware Training
 
 |Venue|Paper Abbr|Project|
@@ -125,6 +150,7 @@
 |CVPR'24|[YOLO-World](https://www.yoloworld.cc/)|[Code](https://github.com/AILab-CVC/YOLO-World)|
 |MM'23|[SGDN](http://arxiv.org/abs/2307.03339)|N/A|
 
+<a id="ovd-pl"></a>
 ### Pseudo-Labeling
 
 |Venue|Paper Abbr|Project|
@@ -148,6 +174,7 @@
 |arXiv'23|[PCL](https://arxiv.org/abs/2303.13040)|N/A|
 |NeurIPS'24|[OWLv2](arxiv.org/abs/2306.09683)|[Code](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit)|
 
+<a id="ovd-kd"></a>
 ### Knowledge Distillation
 
 |Venue|Paper Abbr|Project|
@@ -166,6 +193,7 @@
 |CVPR'22|[DetPro](https://arxiv.org/abs/2203.14940)|[Code](https://github.com/dyabel/detpro)|
 |arXiv'23|[CLIPSelf](https://arxiv.org/abs/2310.01403)|[Code](https://github.com/wusize/CLIPSelf)|
 
+<a id="ovd-tl"></a>
 ### Transfer Learning
 
 |Venue|Paper Abbr|Project|
@@ -178,10 +206,13 @@
 |arXiv'23|[DRR](https://arxiv.org/abs/2309.00227)|N/A|
 |arXiv'23|[Sambor](https://arxiv.org/abs/2312.03628)|[Code](https://github.com/ucas-vg/Sambor)|
 
+<a id="ovs"></a>
 ## Open-Vocabulary Segmentation
 
+<a id="ovss"></a>
 ### Open-Vocabulary Semantic Segmentation
 
+<a id="ovss-rat"></a>
 #### Region-Aware Training
 
 |Venue|Paper Abbr|Project|
@@ -196,12 +227,14 @@
 |CVPR'23|[TCL](https://arxiv.org/abs/2212.00785)|[Code](https://github.com/kakaobrain/tcl)|
 |ECCV'22|[SimSeg](https://arxiv.org/abs/2112.14757)|[Code](https://github.com/MendelXu/zsseg.baseline)|
 
+<a id="ovss-pl"></a>
 #### Pseudo-Labeling
 
 |Venue|Paper Abbr|Project|
 |:-:|:-:|:-:|
 |ECCV'22|[TTD](https://link.springer.com/chapter/10.1007/978-3-031-25063-7_4)|N/A|
 
+<a id="ovss-kd"></a>
 #### Knowledge Distillation
 
 |Venue|Paper Abbr|Project|
@@ -210,6 +243,7 @@
 |arXiv'23|[SAM-CLIP](https://arxiv.org/abs/2310.15308)|N/A|
 |ICCV'23|[ZeroSeg](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Exploring_Open-Vocabulary_Semantic_Segmentation_from_CLIP_Vision_Encoder_Distillation_Only_ICCV_2023_paper.html)|[Code](https://github.com/facebookresearch/ZeroSeg)|
 
+<a id="ovss-tl"></a>
 #### Transfer Learning
 
 |Venue|Paper Abbr|Project|
@@ -243,8 +277,10 @@
 |arXiv'23|[CLIP Surgery](https://arxiv.org/abs/2304.05653)|[Code](https://github.com/xmed-lab/CLIP_Surgery)|
 |arXiv'23|[CaR](https://arxiv.org/abs/2312.07661)|[Project](https://torrvision.com/clip_as_rnn/)|
 
+<a id="ovis"></a>
 ### Open-Vocabulary Instance Segmentation
 
+<a id="ovis-rat"></a>
 #### Region-Aware Training
 
 |Venue|Paper Abbr|Project|
@@ -252,6 +288,7 @@
 |ICCV'23|[CGG](https://arxiv.org/abs/2301.00805)|[Code](https://github.com/jianzongwu/betrayed-by-captions)|
 |CVPR'23|[D2Zero](https://henghuiding.github.io/D2Zero/)|[Code](https://github.com/heshuting555/D2Zero)|
 
+<a id="ovis-pl"></a>
 #### Pseudo-Labeling
 
 |Venue|Paper Abbr|Project|
@@ -260,14 +297,17 @@
 |CVPR'23|[Mask-free OVIS](https://arxiv.org/abs/2303.16891)|[Code](https://github.com/Vibashan/Maskfree-OVIS)|
 |arXiv'23|[MosaicFusion](https://arxiv.org/abs/2309.13042)|[Code](https://github.com/Jiahao000/MosaicFusion)|
 
+<a id="ovis-kd"></a>
 #### Knowledge Distillation
 
 |Venue|Paper Abbr|Project|
 |:-:|:-:|:-:|
 |arXiv'24|[OV-SAM](https://arxiv.org/abs/2401.02955)|[Code](https://github.com/HarborYuan/ovsam)|
 
+<a id="ovps"></a>
 ### Open-Vocabulary Panoptic Segmentation
 
+<a id="ovps-rat"></a>
 #### Region-Aware Training
 
 |Venue|Paper Abbr|Project|
@@ -276,12 +316,14 @@
 |CVPR'23|[X-Decoder](https://arxiv.org/abs/2212.11270)|[Code](https://github.com/microsoft/X-Decoder/tree/main)|
 |CVPR'24|[APE](https://arxiv.org/abs/2312.02153)|[Code](https://github.com/shenyunhang/APE)|
 
+<a id="ovps-kd"></a>
 #### Knowledge Distillation
 
 |Venue|Paper Abbr|Project|
 |:-:|:-:|:-:|
 |CVPR'23|[PADing](https://henghuiding.github.io/PADing/)|[Code](https://github.com/heshuting555/PADing)|
 
+<a id="ovps-tl"></a>
 #### Transfer Learning
 
 |Venue|Paper Abbr|Project|
@@ -297,8 +339,10 @@
 |ICML'23|[MaskCLIP](https://arxiv.org/abs/2208.08984)|[Project](https://maskclip.github.io/)|
 |ICCV'23|[OPSNet](https://arxiv.org/abs/2303.11324)|N/A|
 
+<a id="ov3d"></a>
 ## Open-Vocabulary 3D Scene Understanding
 
+<a id="ov3d-det"></a>
 ### Open-Vocabulary 3D Detection
 
 |Venue|Paper Abbr|Project|
@@ -309,8 +353,10 @@
 |NeurIPS'23|[CoDA](https://arxiv.org/abs/2310.02960)|[Code](https://github.com/yangcaoai/CoDA_NeurIPS2023)|
 |arXiv'23|[L3Det](https://arxiv.org/abs/2309.09456)|N/A|
 
+<a id="ov3d-seg"></a>
 ### Open-Vocabulary 3D Segmentation
 
+<a id="ov3d-seg-sem"></a>
 #### Open-Vocabulary 3D Semantic Segmentation
 
 |Venue|Paper Abbr|Project|
@@ -321,6 +367,7 @@
 |CVPR'23|[PLA](https://arxiv.org/abs/2211.16312)|[Code](https://dingry.github.io/projects/PLA)|
 |arXiv'23|[RegionPLC](https://arxiv.org/abs/2304.00962)|[Project](https://jihanyang.github.io/projects/RegionPLC)|
 
+<a id="ov3d-seg-ins"></a>
 #### Open-Vocabulary 3D Instance Segmentation
 
 |Venue|Paper Abbr|Project|
@@ -335,8 +382,10 @@
 |arXiv'24|[UniM-OV3D](https://arxiv.org/abs/2401.11395)|[Code](https://github.com/hithqd/UniM-OV3D)|
 |arXiv'22|[Open-Vocabulary 3D Detection via Image-level Class and Debiased Cross-modal Contrastive Learning](https://arxiv.org/abs/2207.01987)|N/A| -->
 
+<a id="ovvu"></a>
 ## Open-Vocabulary Video Understanding
 
+<a id="ovvu-seg-ins"></a>
 ### Open-Vocabulary Video Instance Segmentation
 
 |Venue|Paper Abbr|Project|
@@ -352,3 +401,15 @@
 |ICCV'23|[Guiding Text-to-Image Diffusion Model Towards Grounded Generation](https://arxiv.org/abs/2301.05221)|[Project](https://lipurple.github.io/Grounded_Diffusion/)|
 |NeurIPS'23|[Uncovering Prototypical Knowledge for Weakly Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2310.19001)|[Code](https://github.com/Ferenas/PGSeg)|
 |arXiv'23|[Grounding Everything: Emerging Localization Properties in Vision-Language Transformers](https://arxiv.org/abs/2312.00878)|[Code](https://github.com/WalBouss/GEM)| -->
+
+<a id="ack"></a>
+## Acknowledgement
+
+```bibtex
+@article{survey-ovd-ovs,
+    title={A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future},
+    author={Chaoyang Zhu and Long Chen},
+    journal={arXiv preprint arXiv:2307.09220},
+    year={2023}
+}
+```
