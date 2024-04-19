@@ -19,7 +19,7 @@
 
 ## General Overview
 
-<image src="figs/comp.png">
+<image src="figs/comp.png" width="75%">
 
 ## Table of Contents
 
