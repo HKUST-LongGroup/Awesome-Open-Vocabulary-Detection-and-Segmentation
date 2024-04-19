@@ -37,9 +37,10 @@
 - [Acknowledgement](#acknowledgement)
 - [Contact](#contact)
 
-
+ <a id="zsd"></a>
 ## Zero-Shot Object Detection
 
+ <a id="zsd-vssm"></a>
 ### Visual-Semantic Space Mapping
 
 |Venue|Paper Abbr|Project|
@@ -57,6 +58,7 @@
 |TPAMI'21|[ContrastZSD](https://arxiv.org/abs/2109.06062)|N/A|
 |IJCAI'20|[ZSD-CNN](https://www.ijcai.org/proceedings/2020/126)|N/A|
 
+ <a id="zsd-nvfs"></a>
 ### Novel Visual Feature Synthesis
 
 |Venue|Paper Abbr|Project|
