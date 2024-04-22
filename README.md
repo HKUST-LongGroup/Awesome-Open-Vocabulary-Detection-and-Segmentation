@@ -13,9 +13,9 @@
 
 ## :sparkles: PR is welcome!
 
-## :label: TODO
+## Todo
 
-- [] Add detailed impls of each method, such as template prompts vs learnable prompts, CLIP text encoder vs BERT, initialization of image encoder, etc.
+- [ ] Add detailed impls of each method, such as template prompts vs learnable prompts, CLIP text encoder vs BERT, initialization of image encoder, etc.
 
 ## General Overview
 
