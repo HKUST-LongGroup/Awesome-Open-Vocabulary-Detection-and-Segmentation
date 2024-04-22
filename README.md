@@ -416,6 +416,8 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 <a id="ack"></a>
 ## Acknowledgement
 
+If you find our survey helpful, please consider citing our paper:
+
 ```bibtex
 @article{survey-ovd-ovs,
     title={A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future},
