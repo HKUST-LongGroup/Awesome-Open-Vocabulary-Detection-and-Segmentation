@@ -1,7 +1,6 @@
 ![Static Badge](https://img.shields.io/badge/Build-Updating-blue)
 [![Static Badge](https://img.shields.io/badge/PR-Welcome-orange)](https://github.com/seanzhuh/awesome-open-vocabulary-detection-and-segmentation/pulls)
-[![Static Badge](https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E4%B8%AD%E6%96%87%E7%89%88-blue)
-](https://zhuanlan.zhihu.com/p/692846245)
+[![Static Badge](https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E4%B8%AD%E6%96%87%E7%89%88-blue)](https://zhuanlan.zhihu.com/p/692846245)
 <a href='https://arxiv.org/abs/2307.09220'>
     <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
 </a>
