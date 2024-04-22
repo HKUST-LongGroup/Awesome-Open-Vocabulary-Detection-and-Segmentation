@@ -137,29 +137,29 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 <a id="ovd-rat"></a>
 ### Region-Aware Training
 
-|Venue|Paper Abbr|Project|
-|:-:|:-:|:-:|
-|CVPR'21|[OVR-CNN](https://arxiv.org/abs/2011.10678)|[Code](https://github.com/alirezazareian/ovr-cnn)|
-|GCPR'22|[LocOv](https://arxiv.org/abs/2205.06160)|[Code](https://github.com/lmb-freiburg/locov)|
-|arXiv'23|[MMC-Det](https://arxiv.org/abs/2308.15846)|N/A|
-|NeurIPS'22|[DetCLIP](https://arxiv.org/abs/2209.09407)|N/A|
-|CVPR'23|[DetCLIPv2](https://arxiv.org/abs/2304.04514)|N/A|
-|CVPR'24|[DetCLIPv3](https://arxiv.org/abs/2404.09216)|N/A|
-|AAAI'24|[WSOVOD](https://arxiv.org/abs/2312.12437)|[Code](https://github.com/HunterJ-Lin/WSOVOD)|
-|CVPR'23|[RO-ViT](https://arxiv.org/abs/2305.07011)|N/A|
-|ICCV'23|[CFM-ViT](https://arxiv.org/abs/2309.00775)|N/A|
-|ICCV'23|[DITO](https://arxiv.org/abs/2310.00161)|[Code](https://github.com/google-research/google-research/tree/master/fvlm/dito)|
-|ICLR'23|[VLDet](https://arxiv.org/abs/2211.14843)|[Code](https://github.com/clin1223/VLDet)|
-|ICCV'23|[GOAT](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Open-Vocabulary_Object_Detection_With_an_Open_Corpus_ICCV_2023_paper.pdf)|N/A|
-|ECCV'22|[OV-DETR](https://arxiv.org/abs/2203.11876)|[Code](https://github.com/yuhangzang/OV-DETR)|
-|arXiv'23|[Prompt-OVD](https://arxiv.org/abs/2303.14386)|N/A|
-|CVPR'23|[CORA](https://arxiv.org/abs/2303.13076)|N/A|
-|ICCV'23|[EdaDet](https://arxiv.org/abs/2309.01151)|[Code](https://chengshiest.github.io/edadet/)|
-|ICCV'21|[MDETR](https://arxiv.org/abs/2104.12763)|[Code](https://github.com/ashkamath/mdetr)|
-|ECCV'22|[MAVL](https://arxiv.org/abs/2111.11430)|[Code](https://github.com/mmaaz60/mvits_for_class_agnostic_od)|
-|NeurIPS'24|[MQ-Det](https://arxiv.org/abs/2305.18980)|[Code](https://github.com/YifanXu74/MQ-Det)|
-|CVPR'24|[YOLO-World](https://www.yoloworld.cc/)|[Code](https://github.com/AILab-CVC/YOLO-World)|
-|MM'23|[SGDN](http://arxiv.org/abs/2307.03339)|N/A|
+|Venue|Paper Abbr|Project|Text Encoder|Prompt|
+|:-:|:-:|:-:|:-:|:-:|
+|CVPR'21|[OVR-CNN](https://arxiv.org/abs/2011.10678)|[Code](https://github.com/alirezazareian/ovr-cnn)|BERT|❌|
+|GCPR'22|[LocOv](https://arxiv.org/abs/2205.06160)|[Code](https://github.com/lmb-freiburg/locov)|BERT|❌|
+|arXiv'23|[MMC-Det](https://arxiv.org/abs/2308.15846)|N/A|BERT|❌|
+|NeurIPS'22|[DetCLIP](https://arxiv.org/abs/2209.09407)|N/A|||
+|CVPR'23|[DetCLIPv2](https://arxiv.org/abs/2304.04514)|N/A|||
+|CVPR'24|[DetCLIPv3](https://arxiv.org/abs/2404.09216)|N/A|||
+|AAAI'24|[WSOVOD](https://arxiv.org/abs/2312.12437)|[Code](https://github.com/HunterJ-Lin/WSOVOD)|CLIP|T (cat)|
+|CVPR'23|[RO-ViT](https://arxiv.org/abs/2305.07011)|N/A|CLIP|T (cat)|
+|ICCV'23|[CFM-ViT](https://arxiv.org/abs/2309.00775)|N/A|CLIP|T (cat)|
+|ICCV'23|[DITO](https://arxiv.org/abs/2310.00161)|[Code](https://github.com/google-research/google-research/tree/master/fvlm/dito)|CLIP|T (cat)|
+|ICLR'23|[VLDet](https://arxiv.org/abs/2211.14843)|[Code](https://github.com/clin1223/VLDet)|CLIP|T (cat)|
+|ICCV'23|[GOAT](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Open-Vocabulary_Object_Detection_With_an_Open_Corpus_ICCV_2023_paper.pdf)|N/A|CLIP|T (cat)|
+|ECCV'22|[OV-DETR](https://arxiv.org/abs/2203.11876)|[Code](https://github.com/yuhangzang/OV-DETR)|CLIP|T (cat)|
+|arXiv'23|[Prompt-OVD](https://arxiv.org/abs/2303.14386)|N/A|CLIP|T (cat)|
+|CVPR'23|[CORA](https://arxiv.org/abs/2303.13076)|N/A|CLIP|T (cat)|
+|ICCV'23|[EdaDet](https://arxiv.org/abs/2309.01151)|[Code](https://chengshiest.github.io/edadet/)|CLIP|T (cat)|
+|ICCV'21|[MDETR](https://arxiv.org/abs/2104.12763)|[Code](https://github.com/ashkamath/mdetr)|||
+|ECCV'22|[MAVL](https://arxiv.org/abs/2111.11430)|[Code](https://github.com/mmaaz60/mvits_for_class_agnostic_od)|||
+|NeurIPS'24|[MQ-Det](https://arxiv.org/abs/2305.18980)|[Code](https://github.com/YifanXu74/MQ-Det)|||
+|CVPR'24|[YOLO-World](https://www.yoloworld.cc/)|[Code](https://github.com/AILab-CVC/YOLO-World)|||
+|MM'23|[SGDN](http://arxiv.org/abs/2307.03339)|N/A|RoBERTa|❌|
 
 <a id="ovd-pl"></a>
 ### Pseudo-Labeling
