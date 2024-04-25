@@ -137,23 +137,23 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 <a id="ovd-rat"></a>
 ### Region-Aware Training
 
-|Venue|Paper Abbr|Project|Text Encoder|Prompt|
-|:-:|:-:|:-:|:-:|:-:|
-|CVPR'21|[OVR-CNN](https://arxiv.org/abs/2011.10678)|[Code](https://github.com/alirezazareian/ovr-cnn)|BERT|❌|
-|GCPR'22|[LocOv](https://arxiv.org/abs/2205.06160)|[Code](https://github.com/lmb-freiburg/locov)|BERT|❌|
-|arXiv'23|[MMC-Det](https://arxiv.org/abs/2308.15846)|N/A|BERT|❌|
+|Venue|Paper Abbr|Project|Text Encoder|Prompt|Image Backbone (w/ init. method)|Detector|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|CVPR'21|[OVR-CNN](https://arxiv.org/abs/2011.10678)|[Code](https://github.com/alirezazareian/ovr-cnn)|BERT|❌|R50 (IN-1K)|Faster R-CNN|
+|GCPR'22|[LocOv](https://arxiv.org/abs/2205.06160)|[Code](https://github.com/lmb-freiburg/locov)|BERT|❌|R50 (IN-1K)|Faster R-CNN|
+|arXiv'23|[MMC-Det](https://arxiv.org/abs/2308.15846)|N/A|BERT|❌|R50 (N/A)|Faster R-CNN/CenterNetv2|
 |NeurIPS'22|[DetCLIP](https://arxiv.org/abs/2209.09407)|N/A|||
 |CVPR'23|[DetCLIPv2](https://arxiv.org/abs/2304.04514)|N/A|||
 |CVPR'24|[DetCLIPv3](https://arxiv.org/abs/2404.09216)|N/A|||
-|AAAI'24|[WSOVOD](https://arxiv.org/abs/2312.12437)|[Code](https://github.com/HunterJ-Lin/WSOVOD)|CLIP|T (cat)|
-|CVPR'23|[RO-ViT](https://arxiv.org/abs/2305.07011)|N/A|CLIP|T (cat)|
-|ICCV'23|[CFM-ViT](https://arxiv.org/abs/2309.00775)|N/A|CLIP|T (cat)|
-|ICCV'23|[DITO](https://arxiv.org/abs/2310.00161)|[Code](https://github.com/google-research/google-research/tree/master/fvlm/dito)|CLIP|T (cat)|
-|ICLR'23|[VLDet](https://arxiv.org/abs/2211.14843)|[Code](https://github.com/clin1223/VLDet)|CLIP|T (cat)|
-|ICCV'23|[GOAT](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Open-Vocabulary_Object_Detection_With_an_Open_Corpus_ICCV_2023_paper.pdf)|N/A|CLIP|T (cat)|
-|ECCV'22|[OV-DETR](https://arxiv.org/abs/2203.11876)|[Code](https://github.com/yuhangzang/OV-DETR)|CLIP|T (cat)|
-|arXiv'23|[Prompt-OVD](https://arxiv.org/abs/2303.14386)|N/A|CLIP|T (cat)|
-|CVPR'23|[CORA](https://arxiv.org/abs/2303.13076)|N/A|CLIP|T (cat)|
+|AAAI'24|[WSOVOD](https://arxiv.org/abs/2312.12437)|[Code](https://github.com/HunterJ-Lin/WSOVOD)|CLIP|T (cat)|R50 (IN-1K)|Faster R-CNN|
+|CVPR'23|[RO-ViT](https://arxiv.org/abs/2305.07011)|N/A|CLIP|T (cat)|ViT (ALIGN)|Mask R-CNN|
+|ICCV'23|[CFM-ViT](https://arxiv.org/abs/2309.00775)|N/A|CLIP|T (cat)|ViT (ALIGN)|Mask R-CNN|
+|ICCV'23|[DITO](https://arxiv.org/abs/2310.00161)|[Code](https://github.com/google-research/google-research/tree/master/fvlm/dito)|CLIP|T (cat)|ViT (CLIP, ALIGN, DataComp-1B)|Faster R-CNN|
+|ICLR'23|[VLDet](https://arxiv.org/abs/2211.14843)|[Code](https://github.com/clin1223/VLDet)|CLIP|T (cat)|R50 (IN-1K)|Faster R-CNN/CenterNetv2|
+|ICCV'23|[GOAT](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Open-Vocabulary_Object_Detection_With_an_Open_Corpus_ICCV_2023_paper.pdf)|N/A|CLIP|T (cat)|R50 (IN-1K/RegionCLIP)|Faster R-CNN/CenterNetv2|
+|ECCV'22|[OV-DETR](https://arxiv.org/abs/2203.11876)|[Code](https://github.com/yuhangzang/OV-DETR)|CLIP|T (cat)|R50 (N/A)|Def-DETR|
+|arXiv'23|[Prompt-OVD](https://arxiv.org/abs/2303.14386)|N/A|CLIP|T (cat)|ViTDet (IN-1K)|Def-DETR|
+|CVPR'23|[CORA](https://arxiv.org/abs/2303.13076)|N/A|CLIP|T (cat)|R50 (N/A)|SAM-DETR/CenterNetv2|
 |ICCV'23|[EdaDet](https://arxiv.org/abs/2309.01151)|[Code](https://chengshiest.github.io/edadet/)|CLIP|T (cat)|
 |ICCV'21|[MDETR](https://arxiv.org/abs/2104.12763)|[Code](https://github.com/ashkamath/mdetr)|||
 |ECCV'22|[MAVL](https://arxiv.org/abs/2111.11430)|[Code](https://github.com/mmaaz60/mvits_for_class_agnostic_od)|||
@@ -164,57 +164,57 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 <a id="ovd-pl"></a>
 ### Pseudo-Labeling
 
-|Venue|Paper Abbr|Project|
-|:-:|:-:|:-:|
-|CVPR'22|[RegionCLIP](https://arxiv.org/abs/2112.09106)|[Code](https://github.com/microsoft/RegionCLIP)|
-|ECCV'22|[VL-PLM](https://arxiv.org/abs/2207.08954)|[Code](https://github.com/xiaofeng94/VL-PLM)|
-|CVPR'22|[GLIP](https://arxiv.org/pdf/2112.03857.pdf)|[Code](https://github.com/microsoft/GLIP)|
-|NeurIPS'22|[GLIPv2](https://arxiv.org/pdf/2206.05836.pdf)|[Code](https://github.com/microsoft/GLIP)|
-|arXiv'23|[Grounding-DINO](https://arxiv.org/abs/2303.05499)|[Code](https://github.com/IDEA-Research/GroundingDINO)|
-|ECCV'22|[PromptDet](https://arxiv.org/abs/2203.16513)|[Code](https://github.com/fcjian/PromptDet)|
-|arXiv'23|[SAS-Det](https://arxiv.org/abs/2308.06412)|[Code](https://github.com/xiaofeng94/sas-det)|
-|ECCV'22|[PB-OVD](https://arxiv.org/abs/2111.09452)|[Code](https://github.com/salesforce/PB-OVD)|
-|AAAI'24|[CLIM](https://arxiv.org/abs/2312.11376)|[Code](https://github.com/wusize/CLIM)|
-|arXiv'22|[VTP-OVD](https://arxiv.org/abs/2211.00849)|N/A|
-|AAAI'24|[ProxyDet](https://arxiv.org/abs/2312.07266)|[Code](https://github.com/clovaai/ProxyDet)|
-|NeurIPS'23|[CoDet](https://arxiv.org/abs/2310.16667)|[Code](https://github.com/cvmi-lab/codet)|
-|ECCV'22|[Detic](https://arxiv.org/abs/2201.02605)|[Code](https://github.com/facebookresearch/Detic)|
-|ICML'23|[MMC](https://arxiv.org/abs/2306.05493)|[Code](https://github.com/prannaykaul/mm-ovod)|
-|arXiv'23|[3Ways](https://arxiv.org/abs/2303.13518)|N/A|
-|arXiv'23|[PLAC](https://arxiv.org/abs/2312.02103)|N/A|
-|arXiv'23|[PCL](https://arxiv.org/abs/2303.13040)|N/A|
-|NeurIPS'24|[OWLv2](arxiv.org/abs/2306.09683)|[Code](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit)|
+|Venue|Paper Abbr|Project|Text Encoder|Prompt|
+|:-:|:-:|:-:|:-:|:-:|
+|CVPR'22|[RegionCLIP](https://arxiv.org/abs/2112.09106)|[Code](https://github.com/microsoft/RegionCLIP)|CLIP|T (cat)|
+|ECCV'22|[VL-PLM](https://arxiv.org/abs/2207.08954)|[Code](https://github.com/xiaofeng94/VL-PLM)|||
+|CVPR'22|[GLIP](https://arxiv.org/pdf/2112.03857.pdf)|[Code](https://github.com/microsoft/GLIP)|||
+|NeurIPS'22|[GLIPv2](https://arxiv.org/pdf/2206.05836.pdf)|[Code](https://github.com/microsoft/GLIP)|||
+|arXiv'23|[Grounding-DINO](https://arxiv.org/abs/2303.05499)|[Code](https://github.com/IDEA-Research/GroundingDINO)|||
+|ECCV'22|[PromptDet](https://arxiv.org/abs/2203.16513)|[Code](https://github.com/fcjian/PromptDet)|CLIP|L (cat+desc)|
+|arXiv'23|[SAS-Det](https://arxiv.org/abs/2308.06412)|[Code](https://github.com/xiaofeng94/sas-det)|CLIP|T (cat)|
+|ECCV'22|[PB-OVD](https://arxiv.org/abs/2111.09452)|[Code](https://github.com/salesforce/PB-OVD)|CLIP|T (cat)|
+|AAAI'24|[CLIM](https://arxiv.org/abs/2312.11376)|[Code](https://github.com/wusize/CLIM)|CLIP|T (cat)|
+|arXiv'22|[VTP-OVD](https://arxiv.org/abs/2211.00849)|N/A|CLIP|T (cat)|
+|AAAI'24|[ProxyDet](https://arxiv.org/abs/2312.07266)|[Code](https://github.com/clovaai/ProxyDet)|CLIP|T (cat)|
+|NeurIPS'23|[CoDet](https://arxiv.org/abs/2310.16667)|[Code](https://github.com/cvmi-lab/codet)|CLIP|T (cat)|
+|ECCV'22|[Detic](https://arxiv.org/abs/2201.02605)|[Code](https://github.com/facebookresearch/Detic)|CLIP|T (cat)|
+|ICML'23|[MMC](https://arxiv.org/abs/2306.05493)|[Code](https://github.com/prannaykaul/mm-ovod)|CLIP|GPT-3|
+|arXiv'23|[3Ways](https://arxiv.org/abs/2303.13518)|N/A|CLIP|T (cat)|
+|arXiv'23|[PLAC](https://arxiv.org/abs/2312.02103)|N/A|CLIP|T (cat)|
+|arXiv'23|[PCL](https://arxiv.org/abs/2303.13040)|N/A|||
+|NeurIPS'24|[OWLv2](arxiv.org/abs/2306.09683)|[Code](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit)|||
 
 <a id="ovd-kd"></a>
 ### Knowledge Distillation
 
-|Venue|Paper Abbr|Project|
-|:-:|:-:|:-:|
-|ICLR'22|[ViLD](https://arxiv.org/abs/2104.13921)|[Code](https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/vild)|
-|ICDMW'22|[ZSD-YOLO](https://arxiv.org/abs/2109.12066)|[Code](https://github.com/Johnathan-Xie/ZSD-YOLO)|
-|WACV'24|[LP-OVOD](https://arxiv.org/abs/2310.17109)|[Code](https://github.com/VinAIResearch/LP-OVOD)|
-|arXiv'23|[EZSD](https://arxiv.org/abs/2303.12145)|[Code](https://github.com/dragonlzm/EZAD)|
-|AAAI'24|[SIC-CADS](https://arxiv.org/abs/2312.10439)|[Code](https://github.com/mala-lab/sic-cads)|
-|CVPR'23|[BARON](https://arxiv.org/abs/2302.13996)|[Code](https://github.com/wusize/ovdet)|
-|CVPR'23|[OADP](https://arxiv.org/abs/2303.05892)|[Code](https://github.com/LutingWang/OADP)|
+|Venue|Paper Abbr|Project|Text Encoder|Prompt|
+|:-:|:-:|:-:|:-:|:-:|
+|ICLR'22|[ViLD](https://arxiv.org/abs/2104.13921)|[Code](https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/vild)|CLIP|T (cat)|
+|ICDMW'22|[ZSD-YOLO](https://arxiv.org/abs/2109.12066)|[Code](https://github.com/Johnathan-Xie/ZSD-YOLO)|CLIP|T (cat+desc)|
+|WACV'24|[LP-OVOD](https://arxiv.org/abs/2310.17109)|[Code](https://github.com/VinAIResearch/LP-OVOD)|CLIP|T (cat)|
+|arXiv'23|[EZSD](https://arxiv.org/abs/2303.12145)|[Code](https://github.com/dragonlzm/EZAD)|CLIP|T (cat)|
+|AAAI'24|[SIC-CADS](https://arxiv.org/abs/2312.10439)|[Code](https://github.com/mala-lab/sic-cads)|CLIP|T (cat)|
+|CVPR'23|[BARON](https://arxiv.org/abs/2302.13996)|[Code](https://github.com/wusize/ovdet)|CLIP|T (cat)|
+|CVPR'23|[OADP](https://arxiv.org/abs/2303.05892)|[Code](https://github.com/LutingWang/OADP)|CLIP|T (cat)|
 |arXiv'23|[GridCLIP](https://arxiv.org/abs/2303.09252)|N/A|
-|NeurIPS'22|[RKDWTF](https://arxiv.org/abs/2207.03482)|[Code](https://github.com/hanoonaR/object-centric-ovd)|
-|ICCV'23|[DK-DETR](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Distilling_DETR_with_Visual-Linguistic_Knowledge_for_Open-Vocabulary_Object_Detection_ICCV_2023_paper.html)|[Code](https://github.com/hikvision-research/opera)|
-|CVPR'22|[HierKD](https://arxiv.org/abs/2203.10593)|[Code](https://github.com/mengqiDyangge/HierKD)|
-|CVPR'22|[DetPro](https://arxiv.org/abs/2203.14940)|[Code](https://github.com/dyabel/detpro)|
-|arXiv'23|[CLIPSelf](https://arxiv.org/abs/2310.01403)|[Code](https://github.com/wusize/CLIPSelf)|
+|NeurIPS'22|[RKDWTF](https://arxiv.org/abs/2207.03482)|[Code](https://github.com/hanoonaR/object-centric-ovd)|CLIP|T (cat)|
+|ICCV'23|[DK-DETR](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Distilling_DETR_with_Visual-Linguistic_Knowledge_for_Open-Vocabulary_Object_Detection_ICCV_2023_paper.html)|[Code](https://github.com/hikvision-research/opera)|CLIP|T (cat)|
+|CVPR'22|[HierKD](https://arxiv.org/abs/2203.10593)|[Code](https://github.com/mengqiDyangge/HierKD)|CLIP|T (cat/desc)|
+|CVPR'22|[DetPro](https://arxiv.org/abs/2203.14940)|[Code](https://github.com/dyabel/detpro)|CLIP|L (cat)|
+|arXiv'23|[CLIPSelf](https://arxiv.org/abs/2310.01403)|[Code](https://github.com/wusize/CLIPSelf)|CLIP|T (cat)|
 
 <a id="ovd-tl"></a>
 ### Transfer Learning
 
-|Venue|Paper Abbr|Project|
-|:-:|:-:|:-:|
-|ECCV'22|[OWL-ViT](https://arxiv.org/abs/2205.06230)|[Code](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit)|
+|Venue|Paper Abbr|Project|Text Encoder|Prompt|
+|:-:|:-:|:-:|:-:|:-:|
+|ECCV'22|[OWL-ViT](https://arxiv.org/abs/2205.06230)|[Code](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit)|CLIP|T (cat)|
 |CVPR'23|[UniDetector](https://arxiv.org/abs/2303.11749)|[Code](https://github.com/zhenyuw16/UniDetector)|
-|ICLR'23|[F-VLM](https://arxiv.org/abs/2209.15639)|[Code](https://github.com/google-research/google-research/tree/master/fvlm)|
+|ICLR'23|[F-VLM](https://arxiv.org/abs/2209.15639)|[Code](https://github.com/google-research/google-research/tree/master/fvlm)|CLIP|T (cat)|
 |CVPR'23|[ScaleDet](https://arxiv.org/abs/2306.04849)|N/A|
 |ICCV'23|[OpenSeed](https://arxiv.org/abs/2303.08131)|[Code](https://github.com/IDEA-Research/OpenSeeD)|
-|arXiv'23|[DRR](https://arxiv.org/abs/2309.00227)|N/A|
+|arXiv'23|[DRR](https://arxiv.org/abs/2309.00227)|N/A|CLIP|T (cat)|
 |arXiv'23|[Sambor](https://arxiv.org/abs/2312.03628)|[Code](https://github.com/ucas-vg/Sambor)|
 
 <a id="ovs"></a>
