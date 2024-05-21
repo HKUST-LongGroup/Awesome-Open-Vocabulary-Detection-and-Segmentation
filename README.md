@@ -14,6 +14,8 @@
 
 ## :sparkles: PR is welcome!
 
+Please remain tuned as this repo will be maintained on a week-to-week basis.
+
 ## Todo
 
 - [ ] Add detailed impls of each method, such as template prompts vs learnable prompts, CLIP text encoder vs BERT, initialization of image encoder, etc.
