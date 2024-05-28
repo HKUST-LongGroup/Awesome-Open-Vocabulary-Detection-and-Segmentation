@@ -144,9 +144,9 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 |CVPR'21|[OVR-CNN](https://arxiv.org/abs/2011.10678)|[Code](https://github.com/alirezazareian/ovr-cnn)|BERT|❌|R50 (IN-1K)|Faster R-CNN|
 |GCPR'22|[LocOv](https://arxiv.org/abs/2205.06160)|[Code](https://github.com/lmb-freiburg/locov)|BERT|❌|R50 (IN-1K)|Faster R-CNN|
 |arXiv'23|[MMC-Det](https://arxiv.org/abs/2308.15846)|N/A|BERT|❌|R50 (N/A)|Faster R-CNN/CenterNetv2|
-|NeurIPS'22|[DetCLIP](https://arxiv.org/abs/2209.09407)|N/A|||
-|CVPR'23|[DetCLIPv2](https://arxiv.org/abs/2304.04514)|N/A|||
-|CVPR'24|[DetCLIPv3](https://arxiv.org/abs/2404.09216)|N/A|||
+|NeurIPS'22|[DetCLIP](https://arxiv.org/abs/2209.09407)|N/A|FILIP|T (cat+def)|Swin|ATSS|
+|CVPR'23|[DetCLIPv2](https://arxiv.org/abs/2304.04514)|N/A|FILIP|T (cat+def)|Swin|ATSS|
+|CVPR'24|[DetCLIPv3](https://arxiv.org/abs/2404.09216)|N/A|FILIP|T (cat+def)|Swin|DETR-like|
 |AAAI'24|[WSOVOD](https://arxiv.org/abs/2312.12437)|[Code](https://github.com/HunterJ-Lin/WSOVOD)|CLIP|T (cat)|R50 (IN-1K)|Faster R-CNN|
 |CVPR'23|[RO-ViT](https://arxiv.org/abs/2305.07011)|N/A|CLIP|T (cat)|ViT (ALIGN)|Mask R-CNN|
 |ICCV'23|[CFM-ViT](https://arxiv.org/abs/2309.00775)|N/A|CLIP|T (cat)|ViT (ALIGN)|Mask R-CNN|
