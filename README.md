@@ -12,6 +12,10 @@
   </p>
 <br>
 
+## News
+
+05/06/2024: Our 2nd version manuscript is accepted by TPAMI.
+
 ## :sparkles: PR is welcome!
 
 Please remain tuned as this repo will be maintained on a week-to-week basis.
