@@ -14,26 +14,28 @@
 
 ## News
 
+Please remain tuned, this repo will be maintained on a week-to-week basis.
+
 * 27/06/2024: NeRF and 3DGS based 3D scene understanding is added.
 * 05/06/2024: Our 2nd version manuscript is accepted by TPAMI.
 
 ## :sparkles: PR is welcome!
 
-Please remain tuned as this repo will be maintained on a week-to-week basis.
+Though we aim to cover every paper, still chances may happen that some works are missing. Peer review is welcome and will be highly appreciated, if you are the authors and find our recordings are incorrect, don't hesitate to contact me and fire a PR.
 
 ## Todo
 
-- [ ] Add detailed impls of each method, such as template prompts vs learnable prompts, CLIP text encoder vs BERT, initialization of image encoder, etc.
+- [ ] Add detailed implementations of each method, such as template vs learnable prompts, CLIP text encoder vs BERT, initialization of image encoder, etc.
 
 ## General Overview
 
 In this survey, we cover two settings (zero-shot and open-vocabulary) and six tasks (object detection, semantic/instance/panoptic segmentation, 3D scene understanding, and video understanding). We pivot on the permission to weak supervision signals and the usage of weak supervision signals to build a taxonomy that is universal across these diverse settings and tasks. The weak supervision signals can be image-text pairs or large vision-language models. Below is a general overview of each methodology.
 
-<image src="figs/comp.png" width="75%">
+<image src="figs/comp.png" width="50%" aligh="middle">
 
-In current literature, zero-shot and open-vocabulary are used interchangeably, however, we note their subtle differences through the evolvement from traditional zero-shot to the newly formulated open-vocabulary setting.
+In current literature, zero-shot and open-vocabulary are used interchangeably, however, we highlight their subtle differences through the evolvement from traditional zero-shot to the newly formulated open-vocabulary setting.
 
-<image src="figs/table.png" width="75%">
+<image src="figs/table.png" width="50%">
 
 ## Table of Contents
 
