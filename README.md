@@ -14,6 +14,7 @@
 
 ## News
 
+27/06/2024: NeRF and 3DGS based 3D scene understanding is added.
 05/06/2024: Our 2nd version manuscript is accepted by TPAMI.
 
 ## :sparkles: PR is welcome!
