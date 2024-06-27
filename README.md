@@ -68,6 +68,7 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
     - [Open-Vocabulary 3D Segmentation](#ov3d-seg)
         - [Open-Vocabulary 3D Semantic Segmentation](#ov3d-seg-sem)
         - [Open-Vocabulary 3D Instance Segmentation](#ov3d-seg-ins)
+    - [NeRF and 3DGS based](#ov3d-nerf-3dgs)
 - [Open-Vocabulary Video Understanding](#ovvu)
     - [Open-Vocabulary Video Instance Segmentation](#ovvu-seg-ins)
 - [Acknowledgement](#ack)
@@ -399,6 +400,26 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 |arXiv'24|[UniM-OV3D](https://arxiv.org/abs/2401.11395)|[Code](https://github.com/hithqd/UniM-OV3D)|
 |arXiv'22|[Open-Vocabulary 3D Detection via Image-level Class and Debiased Cross-modal Contrastive Learning](https://arxiv.org/abs/2207.01987)|N/A| -->
 
+<a id="ov3d-nerf-3dgs"></a>
+### NeRF and 3DGS based
+
+NeRF ([Neural Radiance Field](https://dl.acm.org/doi/abs/10.1145/3503250)) and 3DGS ([3D Gaussian Splatting](https://arxiv.org/abs/2308.04079)) are hot topics for novel view synthesis in a holistic scene. They leverage multi-view consistency learning inherently imposed in the 3D model to help 2D image segmentation or directly perform 3D semantic segmentation over points (voxel or gaussian) in the scene.
+
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
+|ICCV'21|[Semantic-NeRF](https://openaccess.thecvf.com/content/ICCV2021/html/Zhi_In-Place_Scene_Labelling_and_Understanding_With_Implicit_Scene_Representation_ICCV_2021_paper.html?ref=https://githubhelp.com)|[Code](https://github.com/Harry-Zhi/semantic_nerf)|
+|NeurIPS'22|[FFD](https://proceedings.neurips.cc/paper_files/paper/2022/hash/93f250215e4889119807b6fac3a57aec-Abstract-Conference.html)|[Code](https://github.com/pfnet-research/distilled-feature-fields)|
+|arXiv'23|[Gaussian Grouping](https://arxiv.org/abs/2312.00732)|[Code](https://github.com/lkeab/gaussian-grouping)|
+|ICCV'23|[LERF](https://openaccess.thecvf.com/content/ICCV2023/html/Kerr_LERF_Language_Embedded_Radiance_Fields_ICCV_2023_paper.html?trk=public_post_comment-text)|[Project](https://lerf.io)|
+|NeurIPS'23|[3DOVS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/a76b693f36916a5ed84d6e5b39a0dc03-Abstract-Conference.html)|[Code](https://github.com/Kunhao-Liu/3D-OVS)|
+|arXiv'24|[OpenGaussian](https://arxiv.org/abs/2406.02058)|[Project](https://3d-aigc.github.io/OpenGaussian/)|
+|arXiv'24|[OV-NeRF](https://arxiv.org/abs/2402.04648)|[Code](https://github.com/pcl3dv/OV-NeRF)|
+|arXiv'24|[Semantic Gaussians](https://arxiv.org/abs/2403.15624)|[Project](https://semantic-gaussians.github.io/)|
+|arXiv'24|[FMGS](https://arxiv.org/abs/2401.01970)|[Project](https://xingxingzuo.github.io/fmgs/)|
+|CVPR'24|[LEGaussians](https://openaccess.thecvf.com/content/CVPR2024/html/Shi_Language_Embedded_3D_Gaussians_for_Open-Vocabulary_Scene_Understanding_CVPR_2024_paper.html)|[Code](https://github.com/buaavrcg/LEGaussians)|
+|CVPR'24|[LangSplat](https://openaccess.thecvf.com/content/CVPR2024/html/Qin_LangSplat_3D_Language_Gaussian_Splatting_CVPR_2024_paper.html)|[Project](https://langsplat.github.io/)|
+|CVPR'24|[Feature 3DGS](https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Feature_3DGS_Supercharging_3D_Gaussian_Splatting_to_Enable_Distilled_Feature_CVPR_2024_paper.html)|[Code](https://github.com/ShijieZhou-UCLA/feature-3dgs)|
+
 <a id="ovvu"></a>
 ## Open-Vocabulary Video Understanding
 
@@ -426,9 +447,9 @@ If you find our survey helpful, please consider citing our paper:
 
 ```bibtex
 @article{survey-ovd-ovs,
-    title={A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future},
-    author={Chaoyang Zhu and Long Chen},
-    journal={arXiv preprint arXiv:2307.09220},
-    year={2023}
+  title={A survey on open-vocabulary detection and segmentation: Past, present, and future},
+  author={Zhu, Chaoyang and Chen, Long},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2024}
 }
 ```
