@@ -210,6 +210,7 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 |CVPR'22|[DetPro](https://arxiv.org/abs/2203.14940)|[Code](https://github.com/dyabel/detpro)|
 |arXiv'23|[CLIPSelf](https://arxiv.org/abs/2310.01403)|[Code](https://github.com/wusize/CLIPSelf)|
 |CVPR'24|[SAMP](https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_Scene-adaptive_and_Region-aware_Multi-modal_Prompt_for_Open_Vocabulary_Object_Detection_CVPR_2024_paper.html)|N/A|
+|IJCV'24|[OV-DAR](https://link.springer.com/article/10.1007/s11263-024-02144-1)|N/A|
 
 <a id="ovd-tl"></a>
 ### Transfer Learning
