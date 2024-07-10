@@ -299,6 +299,7 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 |arXiv'23|[CaR](https://arxiv.org/abs/2312.07661)|[Project](https://torrvision.com/clip_as_rnn/)|
 |arXiv'24|[Cascade-CLIP](https://arxiv.org/abs/2406.00670)|[Code](https://github.com/HVision-NKU/Cascade-CLIP)|
 |arXiv'24|[OpenDAS](https://arxiv.org/abs/2405.20141)|[Project](https://goncayilmaz.github.io/opendas/)|
+|arXiv'24|[H-CLIP](https://arxiv.org/pdf/2405.18840)|N/A|
 
 <a id="ovis"></a>
 ### Open-Vocabulary Instance Segmentation
