@@ -209,6 +209,7 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 |CVPR'22|[HierKD](https://arxiv.org/abs/2203.10593)|[Code](https://github.com/mengqiDyangge/HierKD)|
 |CVPR'22|[DetPro](https://arxiv.org/abs/2203.14940)|[Code](https://github.com/dyabel/detpro)|
 |arXiv'23|[CLIPSelf](https://arxiv.org/abs/2310.01403)|[Code](https://github.com/wusize/CLIPSelf)|
+|CVPR'24|[SAMP](https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_Scene-adaptive_and_Region-aware_Multi-modal_Prompt_for_Open_Vocabulary_Object_Detection_CVPR_2024_paper.html)|N/A|
 
 <a id="ovd-tl"></a>
 ### Transfer Learning
@@ -293,6 +294,7 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 |CVPR'23|[SAN](https://arxiv.org/abs/2302.12242)|[Code](https://github.com/MendelXu/SAN)|
 |arXiv'23|[CLIP Surgery](https://arxiv.org/abs/2304.05653)|[Code](https://github.com/xmed-lab/CLIP_Surgery)|
 |arXiv'23|[CaR](https://arxiv.org/abs/2312.07661)|[Project](https://torrvision.com/clip_as_rnn/)|
+|arXiv'24|[Cascade-CLIP](https://arxiv.org/abs/2406.00670)|[Code](https://github.com/HVision-NKU/Cascade-CLIP)|
 
 <a id="ovis"></a>
 ### Open-Vocabulary Instance Segmentation
