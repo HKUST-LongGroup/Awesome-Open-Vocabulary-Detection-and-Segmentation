@@ -170,8 +170,8 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 <a id="ovd-pl"></a>
 ### Pseudo-Labeling
 
-|Venue|Paper Abbr|Project|Text Encoder|Prompt|
-|:-:|:-:|:-:|:-:|:-:|
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
 |CVPR'22|[RegionCLIP](https://arxiv.org/abs/2112.09106)|[Code](https://github.com/microsoft/RegionCLIP)|
 |ECCV'22|[VL-PLM](https://arxiv.org/abs/2207.08954)|[Code](https://github.com/xiaofeng94/VL-PLM)|
 |CVPR'22|[GLIP](https://arxiv.org/pdf/2112.03857.pdf)|[Code](https://github.com/microsoft/GLIP)|
@@ -194,8 +194,8 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 <a id="ovd-kd"></a>
 ### Knowledge Distillation
 
-|Venue|Paper Abbr|Project|Text Encoder|Prompt|
-|:-:|:-:|:-:|:-:|:-:|
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
 |ICLR'22|[ViLD](https://arxiv.org/abs/2104.13921)|[Code](https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/vild)|
 |ICDMW'22|[ZSD-YOLO](https://arxiv.org/abs/2109.12066)|[Code](https://github.com/Johnathan-Xie/ZSD-YOLO)|
 |WACV'24|[LP-OVOD](https://arxiv.org/abs/2310.17109)|[Code](https://github.com/VinAIResearch/LP-OVOD)|
@@ -213,8 +213,8 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 <a id="ovd-tl"></a>
 ### Transfer Learning
 
-|Venue|Paper Abbr|Project|Text Encoder|Prompt|
-|:-:|:-:|:-:|:-:|:-:|
+|Venue|Paper Abbr|Project|
+|:-:|:-:|:-:|
 |ECCV'22|[OWL-ViT](https://arxiv.org/abs/2205.06230)|[Code](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit)|
 |CVPR'23|[UniDetector](https://arxiv.org/abs/2303.11749)|[Code](https://github.com/zhenyuw16/UniDetector)|
 |ICLR'23|[F-VLM](https://arxiv.org/abs/2209.15639)|[Code](https://github.com/google-research/google-research/tree/master/fvlm)|
