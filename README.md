@@ -166,6 +166,7 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 |NeurIPS'24|[MQ-Det](https://arxiv.org/abs/2305.18980)|[Code](https://github.com/YifanXu74/MQ-Det)|
 |CVPR'24|[YOLO-World](https://www.yoloworld.cc/)|[Code](https://github.com/AILab-CVC/YOLO-World)|
 |MM'23|[SGDN](http://arxiv.org/abs/2307.03339)|N/A|
+|CVPR'24|[USE](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_USE_Universal_Segment_Embeddings_for_Open-Vocabulary_Image_Segmentation_CVPR_2024_paper.html)|N/A|
 
 <a id="ovd-pl"></a>
 ### Pseudo-Labeling
@@ -211,6 +212,7 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 |arXiv'23|[CLIPSelf](https://arxiv.org/abs/2310.01403)|[Code](https://github.com/wusize/CLIPSelf)|
 |CVPR'24|[SAMP](https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_Scene-adaptive_and_Region-aware_Multi-modal_Prompt_for_Open_Vocabulary_Object_Detection_CVPR_2024_paper.html)|N/A|
 |IJCV'24|[OV-DAR](https://link.springer.com/article/10.1007/s11263-024-02144-1)|N/A|
+|CVPR'24|[LBP](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Learning_Background_Prompts_to_Discover_Implicit_Knowledge_for_Open_Vocabulary_CVPR_2024_paper.html)|N/A|
 
 <a id="ovd-tl"></a>
 ### Transfer Learning
@@ -296,6 +298,7 @@ In current literature, zero-shot and open-vocabulary are used interchangeably, h
 |arXiv'23|[CLIP Surgery](https://arxiv.org/abs/2304.05653)|[Code](https://github.com/xmed-lab/CLIP_Surgery)|
 |arXiv'23|[CaR](https://arxiv.org/abs/2312.07661)|[Project](https://torrvision.com/clip_as_rnn/)|
 |arXiv'24|[Cascade-CLIP](https://arxiv.org/abs/2406.00670)|[Code](https://github.com/HVision-NKU/Cascade-CLIP)|
+|arXiv'24|[OpenDAS](https://arxiv.org/abs/2405.20141)|[Project](https://goncayilmaz.github.io/opendas/)|
 
 <a id="ovis"></a>
 ### Open-Vocabulary Instance Segmentation
