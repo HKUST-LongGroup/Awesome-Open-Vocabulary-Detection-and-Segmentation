@@ -19,6 +19,20 @@ Please remain tuned, this repo will be maintained on a week-to-week basis.
 * 27/06/2024: NeRF and 3DGS based 3D scene understanding is added.
 * 05/06/2024: Our 2nd version manuscript is accepted by TPAMI.
 
+<a id="ack"></a>
+## Bibtex
+
+If you find our survey helpful, please consider citing our paper:
+
+```bibtex
+@article{survey-ovd-ovs,
+  title={A survey on open-vocabulary detection and segmentation: Past, present, and future},
+  author={Zhu, Chaoyang and Chen, Long},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2024}
+}
+```
+
 ## :sparkles: PR is welcome!
 
 Though we aim to cover every paper, still chances may happen that some works are missing. Peer review is welcome and will be highly appreciated, if you are the authors and find our recordings are incorrect, don't hesitate to contact me and fire a PR.
@@ -453,17 +467,3 @@ NeRF ([Neural Radiance Field](https://dl.acm.org/doi/abs/10.1145/3503250)) and 3
 |ICCV'23|[Guiding Text-to-Image Diffusion Model Towards Grounded Generation](https://arxiv.org/abs/2301.05221)|[Project](https://lipurple.github.io/Grounded_Diffusion/)|
 |NeurIPS'23|[Uncovering Prototypical Knowledge for Weakly Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2310.19001)|[Code](https://github.com/Ferenas/PGSeg)|
 |arXiv'23|[Grounding Everything: Emerging Localization Properties in Vision-Language Transformers](https://arxiv.org/abs/2312.00878)|[Code](https://github.com/WalBouss/GEM)| -->
-
-<a id="ack"></a>
-## Acknowledgement
-
-If you find our survey helpful, please consider citing our paper:
-
-```bibtex
-@article{survey-ovd-ovs,
-  title={A survey on open-vocabulary detection and segmentation: Past, present, and future},
-  author={Zhu, Chaoyang and Chen, Long},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2024}
-}
-```
