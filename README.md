@@ -423,7 +423,7 @@ Space for Open-vocabulary Semantic Segmentation|N/A|
 |arXiv'23|[OpenIns3D](https://arxiv.org/abs/2309.00616)|OpenIns3D: Snap and Lookup for 3D Open-vocabulary Instance Segmentation|[Project](https://zheninghuang.github.io/OpenIns3D/)|
 |arXiv'23|[Open3DIS](https://arxiv.org/abs/2312.10671)|Open3DIS: Open-Vocabulary 3D Instance Segmentation with 2D Mask Guidance|[Project](https://open3dis.github.io)|
 |arXiv'24|[OpenSU3D](https://arxiv.org/abs/2407.14279)|OpenSU3D: Open World 3D Scene Understanding using Foundation Models|[Project](https://opensu3d.github.io/)|
-|arXiv'24|[Search3D](https://arxiv.org/abs/2409.18431)|N/A|
+|arXiv'24|[Search3D](https://arxiv.org/abs/2409.18431)|Search3D: Hierarchical Open-Vocabulary 3D Segmentation|N/A|
 <!-- |CVPR'23|[CLIP2Scene](https://arxiv.org/abs/2301.04926)|[Code](https://github.com/runnanchen/CLIP2Scene)|
 |2023|ICCVW|[CLIP-FO3D](https://arxiv.org/abs/2303.04748)|N/A|
 |arXiv'24|[UniM-OV3D](https://arxiv.org/abs/2401.11395)|[Code](https://github.com/hithqd/UniM-OV3D)|
