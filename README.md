@@ -35,7 +35,7 @@ If you find our survey helpful, please consider citing our paper:
 
 ## :sparkles: PR is welcome!
 
-Though we aim to cover every paper, still chances may happen that some works are missing. Peer review is welcome and will be highly appreciated, if you are the authors and find our recordings are incorrect, don't hesitate to contact me and fire a PR.
+Though we aim to cover every paper, still chances may happen that some works are missing. We believe the repository should be maintained by the community. Peer review is welcome and will be highly appreciated, if you are the authors and find our recordings incorrect, don't hesitate to contact me and fire a PR.
 
 ## General Overview
 
